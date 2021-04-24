@@ -31,3 +31,40 @@ A responsive website designed to promote energy, fun and excellent facilities wi
         * Returning Visitors, should be able to find social links to be able to engage within the online community.
         * Returning Visitors, should be able to find more information about the trainers and book private sessions.
         * Returning Visitors, should be able to find what classes are available, when they are available and also register interest for the class.
+
+* ## Wireframes
+
+----
+* ## Design
+
+    * ### Colour scheme   
+        In order to make sure i chose a compatible and effective selection of colours, i chose to use Adobe Color to help me with my design.
+        #95C12E
+        #049DD9
+        #000000
+        #0D0D0D
+        #6D980F
+        #FFFFFF
+
+    * ### Typography 
+        The main font is Lato [Link](https://fonts.google.com/specimen/Raleway?query=Lato)
+        
+        The secondary font is Roboto [Link](https://fonts.google.com/specimen/Lato?query=Roboto)
+
+* ### Imagery
+
+    #### Logo
+    I designed the logo myself and created it using Adobe Illustrator.
+
+    #### Index
+    Hero Image: Photo by Binyamin Mellish from Pexels [Link](https://www.pexels.com/photo/man-in-blue-shorts-carrying-brown-exercise-equipments-116079/) 
+----
+
+# Technologies Used
+
+## Frameworks, Programmes and Libraries:
+
+* Bootstrap - used for layouts, styling and custom components such as navigation bar or modals.
+
+
+Credit:
