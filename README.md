@@ -66,5 +66,8 @@ A responsive website designed to promote energy, fun and excellent facilities wi
 
 * Bootstrap - used for layouts, styling and custom components such as navigation bar or modals.
 
+# PROBLEMS
+
+When hovering over menu, the menu jumped. To overcome i added an underline in black.
 
 Credit:

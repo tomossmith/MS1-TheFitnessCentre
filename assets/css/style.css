@@ -12,6 +12,7 @@ body {
 nav a {
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
+    border-bottom: 3px solid #000000;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -32,9 +33,24 @@ nav a {
     border-color: #6d980f
 }
 
-.btn-primary:active {
+a:active {
   border-bottom: 3px solid #6d980f;
 }
 
+.jumbotron{
+    background: none;
+    background-image: url(/assets/images/Hero.png);
+    height: 800px;
+}
 
+.jumbotron-text{
+    margin-top: 10rem;
+}
 
+.display-4{
+    font-family: Lato;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff;
+    text-align: right;
+}
