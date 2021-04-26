@@ -7,6 +7,35 @@
 
 body {
     background-color: black;
+    color: #fff;   
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
+
+p { font-family: 'Roboto', sans-serif;
+    font-size: 0.75em;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.section-bg {
+    background-image:
+    radial-gradient(circle, rgba(4,157,217,0.9) 0%, rgba(0,0,0,0.9) 70%),
+    url(/assets/images/BG-Texture.jpg);
+    background-size: cover;
 }
 
 nav a {
@@ -23,34 +52,65 @@ nav a {
     border-bottom: 3px solid #6d980f;
 }
 
-.btn-primary {
-        background-color:#6D980F;
-        border-color: #fff;
+#menu-btn{
+    background-color:#6D980F;
 }
 
-.btn-primary:hover {
+#menu-btn:hover {
     background-color: transparent;
     border-color: #6d980f
-}
-
-a:active {
-  border-bottom: 3px solid #6d980f;
 }
 
 .jumbotron{
     background: none;
     background-image: url(/assets/images/Hero.png);
-    height: 800px;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: -10rem;
 }
 
 .jumbotron-text{
     margin-top: 10rem;
+    padding-left: 20rem;
 }
 
-.display-4{
-    font-family: Lato;
-    font-size: 3rem;
+.jumbotron-text h1{
+
     font-weight: 500;
     color: #fff;
+    text-align: center;
+}
+
+.lead{
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 200;
+    color: #fff;
     text-align: right;
+}
+
+#hero-btn{
+    background-color:#049DD9;
+}
+
+/* BUTTON DEFAULTS */
+.btn-primary {
+        border-color: #fff;
+        font-family: Lato;
+        font-weight: 400;
+        text-transform: uppercase;
+        position: center;
+}
+
+/* FACILITIES PAGE */
+
+.fac-col {
+    text-align: center;
+}
+
+.fac-icon {
+    font-size: 3em;
+    color: #6d980f;
+    padding: 0.75rem 0.75rem;
 }

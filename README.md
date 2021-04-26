@@ -71,3 +71,9 @@ A responsive website designed to promote energy, fun and excellent facilities wi
 When hovering over menu, the menu jumped. To overcome i added an underline in black.
 
 Credit:
+
+Bootstrap Carousel Code
+https://getbootstrap.com/docs/4.0/components/carousel/
+
+Gradient on image: 
+https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/
