@@ -72,8 +72,8 @@ When hovering over menu, the menu jumped. To overcome i added an underline in bl
 
 Credit:
 
-Bootstrap Carousel Code
-https://getbootstrap.com/docs/4.0/components/carousel/
-
 Gradient on image: 
 https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/
+
+Hero Image:
+https://www.w3schools.com/howto/howto_css_hero_image.asp

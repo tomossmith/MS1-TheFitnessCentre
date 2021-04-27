@@ -3,45 +3,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-/* SITE DEFAULTS */
+/* SITE WIDE */
 
 body {
     background-color: black;
-    color: #fff;   
-}
-
-h1 {
-    font-family: 'Lato', sans-serif;
-}
-
-h2 {
-    font-family: 'Lato', sans-serif;
-}
-
-h3 {
-    font-family: 'Lato', sans-serif;
-    font-size: 1.5em;
-}
-
-p { font-family: 'Roboto', sans-serif;
-    font-size: 0.75em;
-}
-
-.uppercase {
-    text-transform: uppercase;
+    color: #fff;
 }
 
 .section-bg {
     background-image:
-    radial-gradient(circle, rgba(4,157,217,0.9) 0%, rgba(0,0,0,0.9) 70%),
-    url(/assets/images/BG-Texture.jpg);
+        radial-gradient(circle, rgba(4, 157, 217, 0.9) 0%, rgba(0, 0, 0, 0.9) 70%),
+        url(/assets/images/BG-Texture.jpg);
     background-size: cover;
+}
+
+/* NAVIGATION MENU */
+nav {
+    z-index: 1;
 }
 
 nav a {
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     border-bottom: 3px solid #000000;
+}
+
+#menu-btn {
+    background-color: #6D980F;
+}
+
+#menu-btn:hover {
+    background-color: transparent;
+    border-color: #6d980f
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -52,55 +45,69 @@ nav a {
     border-bottom: 3px solid #6d980f;
 }
 
-#menu-btn{
-    background-color:#6D980F;
+/* TEXT GENERICS */
+
+.uppercase {
+    text-transform: uppercase;
 }
 
-#menu-btn:hover {
-    background-color: transparent;
-    border-color: #6d980f
+h3 {
+    font-family: 'roboto', sans-serif;
+    font-size: 1.2rem;
 }
 
-.jumbotron{
-    background: none;
-    background-image: url(/assets/images/Hero.png);
-    background-size: cover;
-    width: 100%;
-    margin-bottom: 0;
-    margin-top: -10rem;
+p {
+    font-family: 'roboto', sans-serif;
+    font-size: 0.7rem;
 }
 
-.jumbotron-text{
-    margin-top: 10rem;
-    padding-left: 20rem;
-}
+/* BUTTONS */
 
-.jumbotron-text h1{
-
-    font-weight: 500;
-    color: #fff;
-    text-align: center;
-}
-
-.lead{
-    font-family: Roboto;
-    font-size: 1rem;
-    font-weight: 200;
-    color: #fff;
-    text-align: right;
-}
-
-#hero-btn{
-    background-color:#049DD9;
-}
-
-/* BUTTON DEFAULTS */
 .btn-primary {
-        border-color: #fff;
-        font-family: Lato;
-        font-weight: 400;
-        text-transform: uppercase;
-        position: center;
+    font-family: Lato;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: center;
+    padding: 0.3rem 0.7rem;
+    border-radius: 0.5rem;
+}
+
+/* HERO */
+
+#hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/Hero-Image\ 1600\ x\ 1000.png");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  margin-top: -10vh;
+}
+
+#hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 67%;
+  width: 65%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#hero-text h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+#hero-button {
+    margin-top: 10px;
 }
 
 /* FACILITIES PAGE */
@@ -113,4 +120,22 @@ nav a {
     font-size: 3em;
     color: #6d980f;
     padding: 0.75rem 0.75rem;
+}
+
+#fac-title {
+    font-weight: 600;
+}
+
+
+
+body, html {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 60vh;
+}
+
+#mycarousel img {
+    width: 400px;
 }
