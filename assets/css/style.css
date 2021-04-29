@@ -49,6 +49,10 @@ nav a {
     border-bottom: 3px solid #6d980f;
 }
 
+ .nav-item{
+    text-align: right;
+}
+
 /* GENERICS */
 
 .uppercase {
@@ -62,7 +66,7 @@ h3 {
 
 p {
     font-family: 'roboto', sans-serif;
-    font-size: 0.6rem;
+    font-size: 1rem;
 }
 
 .image-fluid: {
@@ -136,11 +140,11 @@ p {
 
 /* FACILITIES PAGE */
 
+
   .carousel-inner img {
     width: 100%;
     height: 100%;
   }
-
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 10%;
@@ -152,24 +156,36 @@ p {
     border: 3px solid #6D980F;
 }
 
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.4);
+}
+
+.carousel-caption {
+    z-index:1;
+}
+
 .fac-col {
     text-align: center;
-    padding: 0;
+    padding: 1rem;
 }
 
 .fac-icon {
     font-size: 2.5em;
     color: #6d980f;
-    padding: 0.5rem 0.5rem;
 }
 
 #fac-title {
     font-weight: 600;
 }
 
-/* TRAINER SECTION */
-
-
+/* Trainer Section */
 
 .text-block {
     position: relative;
@@ -258,4 +274,5 @@ p {
   /* For desktop: */
   
 } 
+
 
