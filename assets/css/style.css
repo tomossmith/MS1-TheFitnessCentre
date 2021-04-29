@@ -5,6 +5,10 @@
 
 /* SITE WIDE */
 
+body, html {
+    height: 100%;
+}
+
 body {
     background-color: black;
     color: #fff;
@@ -45,7 +49,7 @@ nav a {
     border-bottom: 3px solid #6d980f;
 }
 
-/* TEXT GENERICS */
+/* GENERICS */
 
 .uppercase {
     text-transform: uppercase;
@@ -61,6 +65,24 @@ p {
     font-size: 0.6rem;
 }
 
+.image-fluid: {
+    max-width: 100%; 
+    height: auto;
+}
+
+.image-center {
+    text-align: center;
+}
+
+.container {
+  position: relative;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+
 /* BUTTONS */
 
 .btn-primary {
@@ -70,6 +92,8 @@ p {
     position: center;
     padding: 0.3rem 0.7rem;
     border-radius: 0.5rem;
+    background-color: #039cd8;
+    color: #fff;
 }
 
 /* HERO */
@@ -112,26 +136,6 @@ p {
 
 /* FACILITIES PAGE */
 
-.fac-col {
-    text-align: center;
-    padding: 0;
-}
-
-.fac-icon {
-    font-size: 2.5em;
-    color: #6d980f;
-    padding: 0.5rem 0.5rem;
-}
-
-#fac-title {
-    font-weight: 600;
-}
-
-body, html {
-    height: 100%;
-}
-
-/* Make the Carousel image fully responsive */
   .carousel-inner img {
     width: 100%;
     height: 100%;
@@ -147,6 +151,96 @@ body, html {
     border-radius: 50%;
     border: 3px solid #6D980F;
 }
+
+.fac-col {
+    text-align: center;
+    padding: 0;
+}
+
+.fac-icon {
+    font-size: 2.5em;
+    color: #6d980f;
+    padding: 0.5rem 0.5rem;
+}
+
+#fac-title {
+    font-weight: 600;
+}
+
+/* TRAINER SECTION */
+
+
+
+.text-block {
+    position: relative;
+    bottom: 4rem;
+    background-color: #039cd8;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.text-block h4 {
+    margin-bottom: 0;
+}
+
+.progress{
+    height: 1.5rem;
+}
+
+.progress-bar {
+    background-color: #6D980F;
+    color:#fff;
+    font-weight: 400;
+    font-size: 0.8rem;
+    font-family: "Roboto" , sans-serif;
+    text-align: start;
+    text-indent: 0.5em;
+}
+
+.trainer-button {
+    border: 0.1rem solid white;
+    box-shadow: 0.1rem 0.1rem 0.2rem black;
+}
+
+
+
+
+/* TESTIMONIAL PAGE */
+
+#tml-img1 {
+    height: 12rem; 
+    width: auto;
+}
+
+#tml-img2 {
+    height: 24rem;
+    width: auto;
+}
+
+#tml-img3 {
+    height:12rem;
+    width: auto;
+}
+
+.testimonial-quote-icons {
+    font-size: 0.7rem;
+}
+
+/* FOOTER SECTION */
+
+#tml-block1 {
+    z-index: 1;
+    position: relative;
+    margin-top: -5rem;
+    margin-right: 5rem;
+    text-align: right;
+}
+
+#tml-name1{
+    margin: 0;
+}
+
 
 
 

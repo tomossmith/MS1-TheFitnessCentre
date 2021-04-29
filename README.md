@@ -45,6 +45,7 @@ A responsive website designed to promote energy, fun and excellent facilities wi
         #0D0D0D
         #6D980F
         #FFFFFF
+        #039cd8
 
     * ### Typography 
         The main font is Lato [Link](https://fonts.google.com/specimen/Raleway?query=Lato)
@@ -70,6 +71,9 @@ A responsive website designed to promote energy, fun and excellent facilities wi
 
 When hovering over menu, the menu jumped. To overcome i added an underline in black.
 
+
+Couldn't get the text block on the trainer profiles to center.
+
 Credit:
 
 Gradient on image: 
@@ -77,3 +81,6 @@ https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-u
 
 Hero Image:
 https://www.w3schools.com/howto/howto_css_hero_image.asp
+
+Newsletter Signup Code:
+https://bootsnipp.com/snippets/AlM7P
