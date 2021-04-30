@@ -2,201 +2,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
-/* SITE WIDE */
-
-body, html {
-    height: 100%;
-}
-
 body {
-    background-color: black;
+  background-color: #000;
+}
+
+h1 {
     color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
 }
 
-.section-bg {
-    background-image:
-        radial-gradient(circle, rgba(4, 157, 217, 0.9) 0%, rgba(0, 0, 0, 0.9) 70%),
-        url(/assets/images/BG-Texture.jpg);
-    background-size: cover;
+h2 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
 }
 
-/* NAVIGATION MENU */
-nav {
-    z-index: 1;
+h3 {
+    color: #6D980F;
+    font-weight: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
-nav a {
+p {
+    color: #fff;
+    font-family: "Lato", sans-serif;
+}
+
+.btn {
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
-    border-bottom: 3px solid #000000;
+    border: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
 }
 
-#menu-btn {
-    background-color: #6D980F;
-}
-
-#menu-btn:hover {
-    background-color: transparent;
-    border-color: #6d980f
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
-    margin-right: 2rem;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link:hover {
-    border-bottom: 3px solid #6d980f;
+.uppercase {
+    text-transform: uppercase;
 }
 
  .nav-item{
     text-align: right;
 }
 
-/* GENERICS */
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-h3 {
-    font-family: 'roboto', sans-serif;
-    font-size: 1rem;
-}
-
-p {
-    font-family: 'roboto', sans-serif;
-    font-size: 1rem;
-}
-
-.image-fluid: {
-    max-width: 100%; 
-    height: auto;
-}
-
-.image-center {
-    text-align: center;
-}
-
-.container {
-  position: relative;
-}
-
-.no-padding {
-    padding: 0px;
-}
-
-
-/* BUTTONS */
-
-.btn-primary {
-    font-family: Lato;
-    font-weight: 600;
-    text-transform: uppercase;
-    position: center;
-    padding: 0.3rem 0.7rem;
-    border-radius: 0.5rem;
-    background-color: #039cd8;
-    color: #fff;
-}
-
-/* HERO */
-
-#hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/Hero-Image\ 1600\ x\ 1000.png");
-
-  /* Set a specific height */
-  height: 100%;
-
-  /* Position and center the image to scale nicely on all screens */
+.jumbotron {
+  background-image: url("/assets/images/Hero-Image.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  z-index: -1;
-  margin-top: -10vh;
+  height: 100vh;
+  -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
 }
 
-#hero-text {
-  text-align: center;
-  position: absolute;
+.jumbotron .jumbo-block {
+    position: absolute;
   top: 50%;
   left: 67%;
   width: 65%;
   transform: translate(-50%, -50%);
-  color: white;
 }
 
-#hero-text h1{
-    font-family: 'Lato', sans-serif;
+.jumbotron h1 {
+    color: white;
+    font-family: "roboto", sans-serif;
     font-weight: 600;
-    font-size: 1.8rem;
+    font-size: 3vw;
 }
 
-#hero-button {
-    margin-top: 10px;
+#hero-section button {
+    background-color: #049DD9;
 }
 
-/* FACILITIES PAGE */
+/* FACILITIES SECTION */
 
+#carousel {
 
-  .carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
-
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    height: 10%;
-    width: 40%;
-    outline: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-size: 70%, 70%;
-    border-radius: 50%;
-    border: 3px solid #6D980F;
-}
-
-.carousel-item:after {
-  content:"";
-  display:block;
-  position:absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  background:rgba(0,0,0,0.4);
-}
-
-.carousel-caption {
-    z-index:1;
-}
-
-.fac-col {
-    text-align: center;
-    padding: 1rem;
 }
 
 .fac-icon {
-    font-size: 2.5em;
+    font-size: 10vw;
     color: #6d980f;
+    padding-top: 2rem;
 }
 
-#fac-title {
-    font-weight: 600;
+#facilities-section h2 {
+    padding-top: 1rem;
 }
 
-/* Trainer Section */
+/* TRAINER SECTION */
 
-.text-block {
+#trainer-section {
+    padding-top: 2rem;
+}
+
+#trainer-section img {
+    width: 100%;
+}
+
+#trainer-section .badge-default{
     position: relative;
-    bottom: 4rem;
-    background-color: #039cd8;
-    color: white;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    top: -2.5rem;
+    background: #049DD9;
+    text-align: center;
+    color:white;
+    padding:0.5rem 2rem;
+    color: #fff;
+    font-family: "Lato", sans-serif; 
+    border-radius: 0;
 }
 
-.text-block h4 {
+#trainer-section .badge-default p{
+    font-weight: 300;
     margin-bottom: 0;
 }
 
@@ -214,65 +133,128 @@ p {
     text-indent: 0.5em;
 }
 
-.trainer-button {
-    border: 0.1rem solid white;
-    box-shadow: 0.1rem 0.1rem 0.2rem black;
+#trainer-section .trainer-button {
+    vertical-align: end;
+    background-color: #049DD9;
 }
 
+/* TESTIMONIAL SECTION */
 
-
-
-/* TESTIMONIAL PAGE */
-
-#tml-img1 {
-    height: 12rem; 
-    width: auto;
+#testimonial-section {
+    padding-top: 1rem;
 }
 
-#tml-img2 {
-    height: 24rem;
-    width: auto;
+#Aaron {
+    width: 80%;
 }
 
-#tml-img3 {
-    height:12rem;
-    width: auto;
+#abs {
+    width: 150%;
+    margin-left: -4rem;
 }
 
-.testimonial-quote-icons {
-    font-size: 0.7rem;
+#Amy {
+    width: 95%;
 }
 
-/* FOOTER SECTION */
-
-#tml-block1 {
-    z-index: 1;
+#testimonial-section .badge-default{
     position: relative;
-    margin-top: -5rem;
-    margin-right: 5rem;
-    text-align: right;
+    top: -2.5rem;
+    background: #049DD9;
+    text-align: center;
+    color:white;
+    padding:0.5rem 2rem;
+    color: #fff;
+    font-family: "Lato", sans-serif; 
+    border-radius: 0;
+    font-size: 1rem;
 }
 
-#tml-name1{
-    margin: 0;
+#testimonial-section .badge-default p{
+    font-weight: 300;
+    margin-bottom: 0;
 }
 
+#testimonial-section h1 {
+    padding-top: 1rem;
+    font-size: 2.5rem;
+    text-shadow:rgb(131, 131, 131)m 0.1rem 0.2rem;
+}
 
+#testimonial-section p {
+    padding: 0rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
 
+#testimonial-section .quote-icons {
+    color: #6D980F
+}
 
-/* For mobile phones:
-[class*="col-"] {
-  width: 100%; 
-} 
+/* FOOTER */
 
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
+footer {
+    padding-bottom: 2rem;
+}
+
+#footer-free-trial-bar {
+    margin-top: 2rem;
+    background-color: #049DD9;
+    border-top: 0.1rem solid #fff;
+    border-bottom: 0.1rem solid #fff;
+}
+
+#footer-free-trial-bar h2 {
+    text-shadow:#000 0.1rem 0.1rem 0.2rem;
+}
+
+#footer-free-trial-bar #bar {
+    padding: 10px;
+}
+
+#footer-free-trial-bar button {
+    box-shadow:#000 0.1rem 0.1rem 0.2rem;
+    padding: 0.1rem 1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #fff;
+    background-color: #6D980F;
+}
+
+footer h3 {
+    padding-top: 1rem;
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: #777676;
+}
+
+input {
+    height: 2rem;
+    width: 10rem;
 
 }
 
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  
-} 
+footer .btn {
+    border-radius: 0;
+    height: 2rem;
+    margin-top: -0.3rem;
+}
 
+footer .social-icons {
+    color:#049DD9;
+    padding: 0.5rem;
+    letter-spacing: 0.3rem;
+    font-size: 1.2rem;
+}
 
+footer .contact-icons {
+    color: #049DD9;
+    padding-right: 0.2rem;
+    font-size: 1rem;
+}
+
+footer address {
+    font-size: 0.8rem;
+    color: #777676;
+}
