@@ -45,16 +45,20 @@ p {
     text-align: right;
 }
 
+.jumbotron{
+    background: url("/assets/images/Hero-Image.png") no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
 .jumbotron {
   background-image: url("/assets/images/Hero-Image.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
 }
 
 .jumbotron .jumbo-block {
@@ -78,18 +82,18 @@ p {
 
 /* FACILITIES SECTION */
 
-#carousel {
-
-}
-
 .fac-icon {
-    font-size: 10vw;
+    font-size: 4vw;
     color: #6d980f;
     padding-top: 2rem;
 }
 
 #facilities-section h2 {
     padding-top: 1rem;
+}
+
+#facilities-section p {
+    padding: 0rem 4rem;
 }
 
 /* TRAINER SECTION */
