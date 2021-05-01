@@ -84,3 +84,5 @@ https://www.w3schools.com/howto/howto_css_hero_image.asp
 
 Newsletter Signup Code:
 https://bootsnipp.com/snippets/AlM7P
+
+Text Wrapping: https://www.homeandlearn.co.uk/WD/wds4p6.html
