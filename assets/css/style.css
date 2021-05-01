@@ -45,12 +45,17 @@ p {
     text-align: right;
 }
 
+.section-bg {
+    background-image:
+linear-gradient(90deg, rgba(0, 0, 0, 0.9) 10%, rgba(4, 156, 207, 0.9) 50%, rgba(0, 0, 0, 0.9) 90%),
+
+        /*radial-gradient(circle, rgba(4, 157, 217, 0.9) 0%, rgba(0, 0, 0, 0.9) 70%),*/
+        url(/assets/images/BG-Texture.jpg);
+    background-size: cover;
+}
+
 .jumbotron{
     background: url("/assets/images/Hero-Image.png") no-repeat center center; 
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
 }
 
 .jumbotron {
@@ -146,6 +151,7 @@ p {
 
 #testimonial-section {
     padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 #Aaron {
@@ -202,7 +208,7 @@ footer {
 }
 
 #footer-free-trial-bar {
-    margin-top: 2rem;
+    margin-top: 0rem;
     background-color: #049DD9;
     border-top: 0.1rem solid #fff;
     border-bottom: 0.1rem solid #fff;

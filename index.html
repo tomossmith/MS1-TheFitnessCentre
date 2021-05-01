@@ -13,409 +13,420 @@
     <!--CSS-->
     <link rel="stylesheet" href="/assets/css/style.css">
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
     <title>The Fitness Centre</title>
 
 </head>
 
+<body>
 
-<!--Navigation-->
-<div class="container-fluid">
-    <div class="row">
-        <div class="navbar navbar-expand-lg navbar-dark static-top">
-            <a class="navbar-brand" href="/index.html">
-                <img src="/assets/images/Logo.png" alt="The Fitness Centre Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto uppercase">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/index.html"><b>Home</b>
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/classes.html"><b>Classes</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/trainers.html"><b>Trainers</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/membership.html"><b>Membership</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/events.html"><b>Events</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contact.html"><b>Contact</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <button id="menu-btn" type="button" class="btn btn-primary uppercase">Become A Member</button>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--Hero Section-->
-<!--<section id="hero-section">
-    <div class="row">
-        <div class="col">
-            <div class="jumbotron jumbotron-fluid">
-                <div class="container jumbo-block text-center">
-                    <h1 id="jumbotron-heading">WHERE THE DREAM OF FITNESS <br> BECOMES REALITY</h1>
-                    <button id="jumbotron-button" class="btn btn-primary uppercase"><b>Sign Up To Our 30 Day Free Trial</b></button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>-->
-<section id="hero-section">
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-6">
-			<div class="jumbotron">
-				<!--<h1>
-					Hello, world!
-				</h2>
-				<p>
-					This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
-				</p>
-				<p>
-					<a class="btn btn-primary btn-large" href="#">Learn more</a>
-				</p>-->
-			</div>
-		</div>
-		<div class="col-md-6">
-			<h1 id="jumbotron-heading">WHERE THE DREAM OF FITNESS <br> BECOMES REALITY></h1> 
-			<button id="jumbotron-button" class="btn btn-primary uppercase"><b>Sign Up To Our 30 Day Free Trial</b></button>
-		</div>
-	</div>
-</div>
-</section>
-
-<!--Facilities Section-->
-<section id="facilities-section">
-    <div class="row text-center">
-        <div class="col-md-12">
-            <div class="carousel slide" id="carousel">
-                <ol class="carousel-indicators">
-                    <li data-slide-to="0" data-target="#carousel" class="active">
-                    </li>
-                    <li data-slide-to="1" data-target="#carousel">
-                    </li>
-                    <li data-slide-to="2" data-target="#carousel">
-                    </li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-90" alt="Carousel Bootstrap First" src="/assets/images/Locker-Room.png" />
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-90" alt="Carousel Bootstrap Second" src="/assets/images/Treadmills.png" />
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-90" alt="Carousel Bootstrap Third" src="/assets/images/Weights.png" />
-                    </div>
-                </div> <a class="carousel-control-prev" href="#carousel" data-slide="prev"><span
-                        class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a
-                    class="carousel-control-next" href="#carousel" data-slide="next"><span
-                        class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-3">
-                    <i class="fac-icon far fa-clock"></i>
-                    <h2 class="uppercase">
-                        24/7<br>Access
-                    </h2>
-                    <p>
-                        With our secure keyfob entry system and staff on-site 24/7. Come and train whenever you like.
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <i class="fac-icon fas fa-dumbbell"></i>
-                    <h2 class="uppercase">
-                        Modern<br>Equipment
-                    </h2>
-                    <p>
-                        Our gym is equipped with all of the latest training equipment and are serviced routinely.
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <i class="fac-icon fas fa-street-view"></i>
-                    <h2 class="uppercase">
-                        Fitness<br>Studios
-                    </h2>
-                    <p>
-                        We have 3 spcaious fitness studios, all kitted with professional audio installations and
-                        lighting to help keep you motivated.
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <i class="fac-icon fas fa-person-booth"></i>
-                    <h2 class="uppercase">
-                        Changing<br>Rooms
-                    </h2>
-                    <p>
-                        Luxury and spacious changing rooms to shower after a hard workout. Keep your valuables safe in
-                        our digital lockers.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--Trainers Section-->
-<section id="trainer-section">
+    <!--Navigation-->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-12 col-md-6">
-                <div class="row">
-                    <div class="col-md-6 text-center">
-                        <img alt="Fitness Instructor - Joseph Gonzalez" src="/assets/images/Trainer-1.png"> <span
-                            class="badge badge-default text-center"><strong class="trainer-name">Joseph
-                                Gonzalez</strong><br>
-                            <p>Fitness Instructor</p>
-                        </span>
-                    </div>
-                    <div class="col-sm-6 col-md-6">
-                        <p>
-                            <strong>Experience:</strong> 6 Years
-                            <br>
-                            <strong>Age:</strong> 28 Years
-                        </p>
-                        <div class="progress trainer-stats uppercase">
-                            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
-                                aria-valuemin="0" aria-valuemax="100">Strength
-                            </div>
-                            <p>Here</p>
-                        </div>
-                        <br>
-                        <div class="progress trainer-stats uppercase">
-                            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
-                                aria-valuemin="0" aria-valuemax="100">Cardio
-                            </div>
-                        </div>
-                        <br>
-                        <div class="progress trainer-stats uppercase">
-                            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50"
-                                aria-valuemin="0" aria-valuemax="100">Yoga
-                            </div>
-                        </div>
-                        <br>
-                        <div class="btn btn-primary trainer-button">
-                            Book Trainer
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 text-center">
-                        <img alt="Yoga Instructor - Kirsten Hogan" src="/assets/images/Trainer-2.png"> <span
-                            class="badge badge-default"><strong class="trainer-name">Robin Green</strong><br>
-                            <p>Fitness Instructor</p>
-                        </span>
-                    </div>
-                    <div class="col-sm-6 col-md-6">
-                        <p>
-                            <strong>Experience:</strong> 6 Years
-                            <br>
-                            <strong>Age:</strong> 28 Years
-                        </p>
-                        <div class="progress trainer-stats uppercase">
-                            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
-                                aria-valuemin="0" aria-valuemax="100">Strength
-                            </div>
-                            <p>Here</p>
-                        </div>
-                        <br>
-                        <div class="progress trainer-stats uppercase">
-                            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
-                                aria-valuemin="0" aria-valuemax="100">Cardio
-                            </div>
-                        </div>
-                        <br>
-                        <div class="progress trainer-stats uppercase">
-                            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50"
-                                aria-valuemin="0" aria-valuemax="100">Yoga
-                            </div>
-                        </div>
-                        <br>
-                        <div class="btn btn-primary trainer-button">
-                            Book Trainer
-                        </div>
-                    </div>
+            <div class="navbar navbar-expand-lg navbar-dark static-top">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/assets/images/Logo.png" alt="The Fitness Centre Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto uppercase">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/index.html"><b>Home</b>
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/classes.html"><b>Classes</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/trainers.html"><b>Trainers</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/membership.html"><b>Membership</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/events.html"><b>Events</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html"><b>Contact</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <button id="menu-btn" type="button" class="btn btn-primary uppercase">Become A
+                                Member</button>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 text-center">
-                        <img alt="Fitness Instructor - Robin Green" src="/assets/images/Trainer-3.png"> <span
-                            class="badge badge-default"><strong class="trainer-name">Kirsten Hogan</strong><br>
-                            <p>Yoga Instructor</p>
-                        </span>
-                    </div>
-                    <div class="col-sm-6 col-md-6">
-                        <p>
-                            <strong>Experience:</strong> 6 Years
-                            <br>
-                            <strong>Age:</strong> 28 Years
-                        </p>
-                        <div class="progress trainer-stats uppercase">
-                            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
-                                aria-valuemin="0" aria-valuemax="100">Strength
-                            </div>
-                            <p>Here</p>
-                        </div>
-                        <br>
-                        <div class="progress trainer-stats uppercase">
-                            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
-                                aria-valuemin="0" aria-valuemax="100">Cardio
-                            </div>
-                        </div>
-                        <br>
-                        <div class="progress trainer-stats uppercase">
-                            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50"
-                                aria-valuemin="0" aria-valuemax="100">Yoga
-                            </div>
-                        </div>
-                        <br>
-                        <div class="btn btn-primary trainer-button">
-                            Book Trainer
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 text-center">
-                        <img alt="Strength Instructor - James Crown" src="/assets/images/Trainer-4.png"> <span
-                            class="badge badge-default"><strong class="trainer-name">James Crown</strong><br>
-                            <p>Strength Instructor</p>
-                        </span>
-                    </div>
-                    <div class="col-sm-6 col-md-6">
-                        <p>
-                            <strong>Experience:</strong> 6 Years
-                            <br>
-                            <strong>Age:</strong> 28 Years
-                        </p>
-                        <div class="progress trainer-stats uppercase">
-                            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
-                                aria-valuemin="0" aria-valuemax="100">Strength
-                            </div>
-                            <p>Here</p>
-                        </div>
-                        <br>
-                        <div class="progress trainer-stats uppercase">
-                            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
-                                aria-valuemin="0" aria-valuemax="100">Cardio
-                            </div>
-                        </div>
-                        <br>
-                        <div class="progress trainer-stats uppercase">
-                            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50"
-                                aria-valuemin="0" aria-valuemax="100">Yoga
-                            </div>
-                        </div>
-                        <br>
-                        <div class="btn btn-primary trainer-button">
-                            Book Trainer
-                        </div>
+        </div>
+    </div>
+
+    <!--Hero Section-->
+    <section id="hero-section">
+        <div class="row">
+            <div class="col">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container jumbo-block text-center">
+                        <h1 id="jumbotron-heading">WHERE THE DREAM OF FITNESS <br> BECOMES REALITY</h1>
+                        <button id="jumbotron-button" class="btn btn-primary uppercase"><b>Sign Up To Our 30 Day Free
+                                Trial</b></button>
                     </div>
                 </div>
             </div>
         </div>
-</section>
+    </section>
 
-<!--Testimonial Section-->
-<section id="testimonial-section">
-    <div class="row">
-        <div class="col-md-4 text-center">
-            <img id="Aaron" alt="Bootstrap Image Preview" src="/assets/images/Testimonial1.png" /> <span
-                class="badge badge-default"><strong>Aaron, 25</strong><br>
-                <p>Sales Consultant</p>
-            </span>
-            <p class="text-center">
-                <i class="fas fa-quote-left quote-icons"></i>
-                &nbsp I was finding it difficult to find the time to go to the gym as my working hours are long. Being
-                able to have access to the gym at any time I want really changed my life. &nbsp
-                <i class="fas fa-quote-right quote-icons"></i></p>
-        </div>
-        <div class="col-md-4 text-center">
-            <img id="abs" alt="Bootstrap Image Preview" src="/assets/images/Testimonial2.png" />
-            <h1 class="text-center uppercase">
-                Real People <br> Real Results
-            </h1>
-        </div>
-        <div class="col-md-4 text-center">
-            <img id="Amy" alt="Bootstrap Image Preview" src="/assets/images/Testimonial3.png" /> <span
-                class="badge badge-default"><strong>Amy, 25</strong><br>
-                <p>Full Time Mum</p>
-            </span>
-            <p class="text-center">
-                <i class="fas fa-quote-left quote-icons"></i>
-                &nbsp I started training with Joseph about seven months ago after having my first child. I didn't think
-                my body could ever be the same, but Joseph helped develop a training plan that fit my lifestyle and the
-                results are amazing! &nbsp
-                <i class="fas fa-quote-right quote-icons"></i></p>
-        </div>
-    </div>
-</section>
+        <!--Facilities Section-->
+        <section id="facilities-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel" data-slide-to="1"></li>
+                                <li data-target="#carousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-interval=300>
+                                    <img src="/assets/images/Locker-Room.png" class="d-block w-80" alt="...">
+                                </div>
+                                <div class="carousel-item" data-interval="300">
+                                    <img src="/assets/images/Weights.png" class="d-block w-80" alt="...">
+                                </div>
+                                <div class="carousel-item" data-interval="300">
+                                    <img src="/assets/images/Treadmills.png" class="d-block w-80" alt="...">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
 
-<!--Footer-->
-<footer>
-    <div id="footer-free-trial-bar" class="row">
-        <div id="bar" class="col-md-12 text-center">
-            <h2>
-                TRY OUR NO OBLIGATION 30 DAY FREE TRIAL
-            </h2>
-            <button type="button" class="btn btn-primary">
-                Sign Up
-            </button>
-        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <i class="fac-icon far fa-clock"></i>
+                        <h2 class="uppercase">
+                            24/7<br>Access
+                        </h2>
+                        <p>
+                            With our secure keyfob entry system and staff on-site 24/7. Come and train whenever you
+                            like.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fac-icon fas fa-dumbbell"></i>
+                        <h2 class="uppercase">
+                            Modern<br>Equipment
+                        </h2>
+                        <p>
+                            Our gym is equipped with all of the latest training equipment and are serviced routinely.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fac-icon fas fa-street-view"></i>
+                        <h2 class="uppercase">
+                            Fitness<br>Studios
+                        </h2>
+                        <p>
+                            We have 3 spcaious fitness studios, all kitted with professional audio installations and
+                            lighting to help keep you motivated.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fac-icon fas fa-person-booth"></i>
+                        <h2 class="uppercase">
+                            Changing<br>Rooms
+                        </h2>
+                        <p>
+                            Luxury and spacious changing rooms to shower after a hard workout. Keep your valuables safe
+                            in
+                            our digital lockers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    
+    <!--Background-->
+    <div class="container-fluid section-bg">    
+
+        <!--Trainers Section-->
+        <section id="trainer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="row">
+                            <div class="col-md-6 text-center">
+                                <img alt="Fitness Instructor - Joseph Gonzalez" src="/assets/images/Trainer-1.png">
+                                <span class="badge badge-default text-center"><strong class="trainer-name">Joseph
+                                        Gonzalez</strong><br>
+                                    <p>Fitness Instructor</p>
+                                </span>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <p>
+                                    <strong>Experience:</strong> 6 Years
+                                    <br>
+                                    <strong>Age:</strong> 28 Years
+                                </p>
+                                <div class="progress trainer-stats uppercase">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100">Strength
+                                    </div>
+                                    <p>Here</p>
+                                </div>
+                                <br>
+                                <div class="progress trainer-stats uppercase">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                                        aria-valuemin="0" aria-valuemax="100">Cardio
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="progress trainer-stats uppercase">
+                                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50"
+                                        aria-valuemin="0" aria-valuemax="100">Yoga
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="btn btn-primary trainer-button">
+                                    Book Trainer
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 text-center">
+                                <img alt="Yoga Instructor - Kirsten Hogan" src="/assets/images/Trainer-2.png"> <span
+                                    class="badge badge-default"><strong class="trainer-name">Robin Green</strong><br>
+                                    <p>Fitness Instructor</p>
+                                </span>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <p>
+                                    <strong>Experience:</strong> 6 Years
+                                    <br>
+                                    <strong>Age:</strong> 28 Years
+                                </p>
+                                <div class="progress trainer-stats uppercase">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100">Strength
+                                    </div>
+                                    <p>Here</p>
+                                </div>
+                                <br>
+                                <div class="progress trainer-stats uppercase">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                                        aria-valuemin="0" aria-valuemax="100">Cardio
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="progress trainer-stats uppercase">
+                                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50"
+                                        aria-valuemin="0" aria-valuemax="100">Yoga
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="btn btn-primary trainer-button">
+                                    Book Trainer
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 text-center">
+                                <img alt="Fitness Instructor - Robin Green" src="/assets/images/Trainer-3.png"> <span
+                                    class="badge badge-default"><strong class="trainer-name">Kirsten Hogan</strong><br>
+                                    <p>Yoga Instructor</p>
+                                </span>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <p>
+                                    <strong>Experience:</strong> 6 Years
+                                    <br>
+                                    <strong>Age:</strong> 28 Years
+                                </p>
+                                <div class="progress trainer-stats uppercase">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100">Strength
+                                    </div>
+                                    <p>Here</p>
+                                </div>
+                                <br>
+                                <div class="progress trainer-stats uppercase">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                                        aria-valuemin="0" aria-valuemax="100">Cardio
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="progress trainer-stats uppercase">
+                                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50"
+                                        aria-valuemin="0" aria-valuemax="100">Yoga
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="btn btn-primary trainer-button">
+                                    Book Trainer
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 text-center">
+                                <img alt="Strength Instructor - James Crown" src="/assets/images/Trainer-4.png"> <span
+                                    class="badge badge-default"><strong class="trainer-name">James Crown</strong><br>
+                                    <p>Strength Instructor</p>
+                                </span>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <p>
+                                    <strong>Experience:</strong> 6 Years
+                                    <br>
+                                    <strong>Age:</strong> 28 Years
+                                </p>
+                                <div class="progress trainer-stats uppercase">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100">Strength
+                                    </div>
+                                    <p>Here</p>
+                                </div>
+                                <br>
+                                <div class="progress trainer-stats uppercase">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                                        aria-valuemin="0" aria-valuemax="100">Cardio
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="progress trainer-stats uppercase">
+                                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50"
+                                        aria-valuemin="0" aria-valuemax="100">Yoga
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="btn btn-primary trainer-button">
+                                    Book Trainer
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!--Testimonial Section-->
+        <section id="testimonial-section">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img id="Aaron" alt="Bootstrap Image Preview" src="/assets/images/Testimonial1.png" /> <span
+                        class="badge badge-default"><strong>Aaron, 25</strong><br>
+                        <p>Sales Consultant</p>
+                    </span>
+                    <p class="text-center">
+                        <i class="fas fa-quote-left quote-icons"></i>
+                        &nbsp I was finding it difficult to find the time to go to the gym as my working hours are long.
+                        Being
+                        able to have access to the gym at any time I want really changed my life. &nbsp
+                        <i class="fas fa-quote-right quote-icons"></i></p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img id="abs" alt="Bootstrap Image Preview" src="/assets/images/Testimonial2.png" />
+                    <h1 class="text-center uppercase">
+                        Real People <br> Real Results
+                    </h1>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img id="Amy" alt="Bootstrap Image Preview" src="/assets/images/Testimonial3.png" /> <span
+                        class="badge badge-default"><strong>Amy, 25</strong><br>
+                        <p>Full Time Mum</p>
+                    </span>
+                    <p class="text-center">
+                        <i class="fas fa-quote-left quote-icons"></i>
+                        &nbsp I started training with Joseph about seven months ago after having my first child. I
+                        didn't
+                        think
+                        my body could ever be the same, but Joseph helped develop a training plan that fit my lifestyle
+                        and
+                        the
+                        results are amazing! &nbsp
+                        <i class="fas fa-quote-right quote-icons"></i></p>
+                </div>
+            </div>
+        </section>
     </div>
-    <div class="row">
+
+    <!--Footer-->
+    <footer>
+        <div id="footer-free-trial-bar" class="row">
+            <div id="bar" class="col-md-12 text-center">
+                <h2>
+                    TRY OUR NO OBLIGATION 30 DAY FREE TRIAL
+                </h2>
+                <button type="button" class="btn btn-primary">
+                    Sign Up
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h3 class="text-center uppercase">
+                    Subscribe to the newsletter
+                </h3>
+                <p class="text-center">
+                    Stay up to date with the latest from us
+                </p>
+                <form role="form">
+                    <div class="form-group text-center">
+                        <label for="email"></label>
+                        <input type="email" placeholder="Email Address" name="email">
+                        <button type="submit" class="btn btn-primary">SIGN UP</button>
+                </form>
+            </div>
+        </div>
         <div class="col-md-4">
             <h3 class="text-center uppercase">
-                Subscribe to the newsletter
+                Connect With Us
             </h3>
-            <p class="text-center">
-                Stay up to date with the latest from us
-            </p>
-            <form role="form">
-                <div class="form-group text-center">
-                    <label for="email"></label>
-                    <input type="email" placeholder="Email Address" name="email">
-                    <button type="submit" class="btn btn-primary">SIGN UP</button>
-            </form>
+            <div class="text-center social-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-pinterest"></i>
+                <i class="fab fa-google-plus-g"></i>
+            </div>
         </div>
-    </div>
-    <div class="col-md-4">
-        <h3 class="text-center uppercase">
-            Connect With Us
-        </h3>
-        <div class="text-center social-icons">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-whatsapp"></i>
-            <i class="fab fa-youtube"></i>
-            <i class="fab fa-pinterest"></i>
-            <i class="fab fa-google-plus-g"></i>
+        <div class="col-md-4">
+            <h3 class="text-center uppercase">
+                Contact Us
+            </h3>
+            <address class="contact-text text-center">
+                <i class="fas fa-map-pin contact-icons"></i><strong>The Fitness Centre</strong>&nbsp Elmsford, New York,
+                10523<br />
+                <i class="fas fa-phone contact-icons"></i> 845-746-6332<br>
+                <i class="fas fa-at contact-icons"></i> getfit@thefitnesscentre.com
+            </address>
         </div>
-    </div>
-    <div class="col-md-4">
-        <h3 class="text-center uppercase">
-            Contact Us
-        </h3>
-        <address class="contact-text text-center">
-            <i class="fas fa-map-pin contact-icons"></i><strong>The Fitness Centre</strong>&nbsp Elmsford, New York,
-            10523<br />
-            <i class="fas fa-phone contact-icons"></i> 845-746-6332<br>
-            <i class="fas fa-at contact-icons"></i> getfit@thefitnesscentre.com
-        </address>
-    </div>
-    </div>
-    </div>
-</footer>
+        </div>
+    </footer>
+
+</body>
+
+</html>
