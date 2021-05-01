@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
-  background-color: #000;
+    background-color: #000;
 }
 
 h1 {
@@ -41,37 +41,37 @@ p {
     text-transform: uppercase;
 }
 
- .nav-item{
+.nav-item {
     text-align: right;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
 }
 
 .section-bg {
     background-image:
-linear-gradient(90deg, rgba(0, 0, 0, 0.9) 10%, rgba(4, 156, 207, 0.9) 50%, rgba(0, 0, 0, 0.9) 90%),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.9) 10%, rgba(4, 156, 207, 0.9) 50%, rgba(0, 0, 0, 0.9) 90%),
 
         /*radial-gradient(circle, rgba(4, 157, 217, 0.9) 0%, rgba(0, 0, 0, 0.9) 70%),*/
         url(/assets/images/BG-Texture.jpg);
     background-size: cover;
 }
 
-.jumbotron{
-    background: url("/assets/images/Hero-Image.png") no-repeat center center; 
-}
-
 .jumbotron {
-  background-image: url("/assets/images/Hero-Image.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+    background-image: url("/assets/images/Hero-Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .jumbotron .jumbo-block {
     position: absolute;
-  top: 50%;
-  left: 67%;
-  width: 65%;
-  transform: translate(-50%, -50%);
+    top: 50%;
+    left: 67%;
+    width: 65%;
+    transform: translate(-50%, -50%);
 }
 
 .jumbotron h1 {
@@ -98,7 +98,7 @@ linear-gradient(90deg, rgba(0, 0, 0, 0.9) 10%, rgba(4, 156, 207, 0.9) 50%, rgba(
 }
 
 #facilities-section p {
-    padding: 0rem 4rem;
+    padding: 0rem 2rem;
 }
 
 /* TRAINER SECTION */
@@ -111,39 +111,38 @@ linear-gradient(90deg, rgba(0, 0, 0, 0.9) 10%, rgba(4, 156, 207, 0.9) 50%, rgba(
     width: 100%;
 }
 
-#trainer-section .badge-default{
+#trainer-section .badge-default {
     position: relative;
     top: -2.5rem;
     background: #049DD9;
     text-align: center;
-    color:white;
-    padding:0.5rem 2rem;
+    color: white;
+    padding: 0.5rem 2rem;
     color: #fff;
-    font-family: "Lato", sans-serif; 
+    font-family: "Lato", sans-serif;
     border-radius: 0;
 }
 
-#trainer-section .badge-default p{
+#trainer-section .badge-default p {
     font-weight: 300;
     margin-bottom: 0;
 }
 
-.progress{
+.progress {
     height: 1.5rem;
 }
 
 .progress-bar {
     background-color: #6D980F;
-    color:#fff;
+    color: #fff;
     font-weight: 400;
     font-size: 0.8rem;
-    font-family: "Roboto" , sans-serif;
+    font-family: "Roboto", sans-serif;
     text-align: start;
     text-indent: 0.5em;
 }
 
 #trainer-section .trainer-button {
-    vertical-align: end;
     background-color: #049DD9;
 }
 
@@ -167,20 +166,20 @@ linear-gradient(90deg, rgba(0, 0, 0, 0.9) 10%, rgba(4, 156, 207, 0.9) 50%, rgba(
     width: 95%;
 }
 
-#testimonial-section .badge-default{
+#testimonial-section .badge-default {
     position: relative;
     top: -2.5rem;
     background: #049DD9;
     text-align: center;
-    color:white;
-    padding:0.5rem 2rem;
+    color: white;
+    padding: 0.5rem 2rem;
     color: #fff;
-    font-family: "Lato", sans-serif; 
+    font-family: "Lato", sans-serif;
     border-radius: 0;
     font-size: 1rem;
 }
 
-#testimonial-section .badge-default p{
+#testimonial-section .badge-default p {
     font-weight: 300;
     margin-bottom: 0;
 }
@@ -188,7 +187,7 @@ linear-gradient(90deg, rgba(0, 0, 0, 0.9) 10%, rgba(4, 156, 207, 0.9) 50%, rgba(
 #testimonial-section h1 {
     padding-top: 1rem;
     font-size: 2.5rem;
-    text-shadow:rgb(131, 131, 131)m 0.1rem 0.2rem;
+    text-shadow: rgb(131, 131, 131)m 0.1rem 0.2rem;
 }
 
 #testimonial-section p {
@@ -215,7 +214,7 @@ footer {
 }
 
 #footer-free-trial-bar h2 {
-    text-shadow:#000 0.1rem 0.1rem 0.2rem;
+    text-shadow: #000 0.1rem 0.1rem 0.2rem;
 }
 
 #footer-free-trial-bar #bar {
@@ -223,7 +222,7 @@ footer {
 }
 
 #footer-free-trial-bar button {
-    box-shadow:#000 0.1rem 0.1rem 0.2rem;
+    box-shadow: #000 0.1rem 0.1rem 0.2rem;
     padding: 0.1rem 1rem;
     border-radius: 0.5rem;
     border: 0.1rem solid #fff;
@@ -252,7 +251,7 @@ footer .btn {
 }
 
 footer .social-icons {
-    color:#049DD9;
+    color: #049DD9;
     padding: 0.5rem;
     letter-spacing: 0.3rem;
     font-size: 1.2rem;
@@ -267,4 +266,102 @@ footer .contact-icons {
 footer address {
     font-size: 0.8rem;
     color: #777676;
+}
+
+
+
+/* MOBILE */
+@media screen and (max-width:767px) {
+
+    .col {
+        padding-right: 0px;
+    }
+
+    .show-pc-only {
+        display: none;
+    }
+
+
+    /* MOBILE - HERO SECTION*/
+
+    #hero-section .jumbotron {
+        background-image:
+            url('/assets/images/Hero-Image\ \(Mobile\).png');
+        background-size: 110%;
+        background-position: top;
+        background-position-x: center;
+    }
+
+    .jumbotron .jumbo-block {
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        width: 100%;
+        background-color: rgba(0, 0, 255, 0);
+    }
+
+    .jumbotron h1 {
+        font-size: 6vw;
+    }
+
+    /* MOBILE - FACILITIES SECTION */
+
+    #facilities-section h2 {
+        padding: 0rem 0rem;
+    }
+
+    #facilities-section p {
+            padding: 0rem 0rem;
+    }
+
+/* MOBILE-TRAINER SECTION */
+
+#trainer-section .badge-default {
+    padding: 0.5rem 1rem;
+}
+
+#trainer-section .trainer-info {
+    padding-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.progress {
+    height: 0.8rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.progress-bar {
+    background-color: #6D980F;
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.5rem;
+    letter-spacing: 0.1rem;
+    font-family: "Roboto", sans-serif;
+    text-align: start;
+    text-indent: 0.5em;
+}
+
+#trainer-section .trainer-button {
+    padding: 0.4rem 0.4rem;
+    position: relative;
+    margin-left: 0.5rem;
+}
+
+}
+
+/* TABLET */
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .show-mob-only {
+        display: none;
+    }
+}
+
+
+/* PC */
+@media screen and (min-width:1024px) {
+    .show-mob-only {
+        display: none;
+    }
 }
