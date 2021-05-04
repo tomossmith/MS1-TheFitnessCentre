@@ -22,12 +22,13 @@ h3 {
     color: #6D980F;
     font-weight: "Lato", sans-serif;
     font-weight: 500;
-    font-size: 1rem;
 }
 
 p {
     color: #fff;
     font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
 }
 
 .btn {
@@ -41,28 +42,21 @@ p {
     text-transform: uppercase;
 }
 
-.textwrap-r {
-    float: right;
-    margin: 10px;
-}
-
-.textwrap-l {
-    float: left;
-    margin: 10px;
-}
-
 .nav-item {
     text-align: right;
 }
 
-.row {
-    --bs-gutter-x: 0rem;
+.page-title {
+    font-size: 4rem;
+}
+
+.card-body {
+    list-style-type: none;
 }
 
 .section-bg {
     background-image:
         linear-gradient(90deg, rgba(0, 0, 0, 0.9) 10%, rgba(4, 156, 207, 0.9) 50%, rgba(0, 0, 0, 0.9) 90%),
-
         /*radial-gradient(circle, rgba(4, 157, 217, 0.9) 0%, rgba(0, 0, 0, 0.9) 70%),*/
         url(/assets/images/BG-Texture.jpg);
     background-size: cover;
@@ -225,6 +219,7 @@ footer {
 
 footer h3 {
     padding-top: 1rem;
+    font-size: 1rem;
 }
 
 footer p {
@@ -267,18 +262,49 @@ footer address {
 
 .classes-bg {
     background-image:
-        linear-gradient(90deg, rgba(0, 0, 0, 0.9) 10%, rgba(4, 156, 207, 0.9) 50%, rgba(0, 0, 0, 0.9) 90%),
-
-        /*radial-gradient(circle, rgba(4, 157, 217, 0.9) 0%, rgba(0, 0, 0, 0.9) 70%),*/
-        url(/assets/images/BG-Texture.jpg);
+    linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%),
+    url(/assets/images/classes-bg.png);
     background-size: cover;
 }
 
+#class-cards .card-body {
+    background-color: #000;
+}
+
+#class-cards h3 {
+    font-size: 1.2rem;
+}
+
+#class-cards .card-text {
+
+}
+
+
+
 /* MEMBERSHIP PAGE */
+.membership-bg {
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%),
+    url(/assets/images/membership-bg.jpeg);
+    background-size: cover;
+}
+
+.membership-intro {
+    letter-spacing: 0.1rem;
+}
+
+.membership-intro strong {
+    color:#6d980f;
+    font-weight: 600;
+}
+
+.membership-intro p i {
+    color: red;
+}
+
 #pricing-table {
     font-family: "lato", sans-serif;
-    width: 90%;
-    
+width: 90%;    
 }
 
 #pricing-table button {
@@ -290,13 +316,10 @@ footer address {
     width: 8rem;
 }
 
-.card-body {
-    list-style-type: none;
-}
-
 #pricing-table .card-body .title {
     text-shadow: 0.5rem 0.5rem 0.5rem #000;
     color: #fff;
+    
 }
 
 #pricing-table .card-footer h1 {
@@ -334,9 +357,6 @@ footer address {
     margin: 2rem;
 }
 
-#pricing-table #gold-btn {
-}
-
 #pricing-table #most-popular {
     border-radius: 0;
     background-color: #049DD9;
@@ -344,6 +364,10 @@ footer address {
     padding: 0rem;
     height: 2rem;
     font-size: 1rem;
+    position: absolute;
+    margin-left: 2.2rem;
+    margin-top:0.5rem;
+    z-index: 1;
 }
 
 
