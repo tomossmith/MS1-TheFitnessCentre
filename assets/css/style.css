@@ -267,19 +267,50 @@ footer address {
     background-size: cover;
 }
 
+#class-cards .card {
+    background-color:rgba(0, 0, 0, 0);
+    padding: 0.5rem;
+}
+
 #class-cards .card-body {
-    background-color: #000;
+    background-color:none;
+    border-radius: 5rem;
+}
+
+#class-cards .card-body .card-img-top {
+    border-radius: 10rem;
+    width: 15rem;
 }
 
 #class-cards h3 {
     font-size: 1.2rem;
+    padding-top: 0.5rem;
 }
 
-#class-cards .card-text {
-
+#class-cards button a {
+    color: #fff;
+    border-bottom: none;
+    text-decoration: none;
 }
 
+#class-cards .card-body .card-instructor-image {
+    height: 4rem;
+    border-radius: 10rem;
+}
 
+#class-cards .card-body i {
+    font-size: 2rem;
+    color:#049DD9;
+}
+
+#class-cards .card-body .low {
+    background-color: green;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
 
 /* MEMBERSHIP PAGE */
 .membership-bg {
