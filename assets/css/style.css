@@ -97,6 +97,9 @@ p {
 
 /* FACILITIES SECTION */
 
+#carousel {
+}
+
 .fac-icon {
     font-size: 4vw;
     color: #6d980f;
@@ -113,15 +116,15 @@ p {
 
 /* TRAINER SECTION */
 
-#trainer-section {
+#instructor-section {
     padding-top: 2rem;
 }
 
-#trainer-section img {
+#instructor-section img {
     width: 100%;
 }
 
-#trainer-section .badge-default {
+#instructor-section .badge-default {
     position: relative;
     top: -2.5rem;
     background: #049DD9;
@@ -133,7 +136,7 @@ p {
     border-radius: 0;
 }
 
-#trainer-section .badge-default p {
+#instructor-section .badge-default p {
     font-weight: 300;
     margin-bottom: 0;
 }
@@ -152,7 +155,7 @@ p {
     text-indent: 0.5em;
 }
 
-#trainer-section .trainer-button {
+#instructor-section .instructor-button {
     background-color: #049DD9;
 }
 
@@ -304,6 +307,7 @@ width:1080px;
 #class-cards .card-body {
     background-color: none;
     border-radius: 5rem;
+    height: 57rem;
 }
 
 #class-cards .card-body .card-img-top {
@@ -316,12 +320,13 @@ width:1080px;
 }
 
 #class-cards .card-body .card-instructor-image {
-    height: 4rem;
-    border-radius: 10rem;
+    width: 5rem;
+
 }
 
 #class-cards .class-info p {
     margin-bottom: 0.1rem;
+
 }
 
 #class-cards .card-body i {
@@ -368,6 +373,8 @@ width:1080px;
 #class-cards .card-body button {
     margin: 1rem 0rem;
     position: relative;
+    width: 20rem;
+    background: #6d980f;
 }
 
 /* MEMBERSHIP PAGE */
@@ -596,12 +603,12 @@ background-image:
     }
 
     /* MOBILE-TRAINER SECTION */
-    #trainer-section .badge-default {
+    #instructor-section .badge-default {
         padding: 0.5rem 1rem;
         position: absolute;
     }
 
-    #trainer-section .trainer-info {
+    #instructor-section .instructor-info {
         padding-left: 0.5rem;
         margin-bottom: 0.5rem;
         font-size: 0.8rem;
@@ -624,7 +631,7 @@ background-image:
         text-indent: 0.5em;
     }
 
-    #trainer-section .trainer-button {
+    #instructor-section .instructor-button {
         padding: 0.4rem 0.4rem;
         position: relative;
         margin-left: 0.5rem;
@@ -686,6 +693,7 @@ background-image:
         height: 50vh;
         width: 80vh;
     }
+
 }
 
 
