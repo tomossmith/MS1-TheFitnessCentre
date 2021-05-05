@@ -27,7 +27,7 @@
 
 </head>
 
-<body>
+<body class="membership-page">
 
     <!--Navigation-->
     <div class="container-fluid">
@@ -49,7 +49,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#trainers"><b>Trainers</b></a>
+                            <a class="nav-link" href="/index.html#trainers"><b>Trainers</b></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/classes.html"><b>Classes</b></a>
@@ -59,7 +59,8 @@
                             <span class="sr-only">(current)</span>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/contact.html"><b>Contact</b></a>
+                            <a class="nav-link" data-toggle="modal"
+                                data-target="#contact-modal"><b>Contact</b></a>
                         </li>
                         <li class="nav-item">
                             <button id="menu-btn" type="button" class="btn btn-primary uppercase">Join</button>
@@ -73,32 +74,36 @@
     <!--Background-->
     <div class="membership-bg">
 
-       <!--Title-->
-       <div class="container">
-       <h1 class="uppercase page-title">Membership</h1>
-       </div>
-       
-       <div class="membership-intro container text-center">
-            <p>We have a range of membership packages available to suit all types of lifestyles! All our packages include credits towards our <strong> fitness classes</strong> and a <strong>individual training plan</strong> carefully constructed by our in-house instructors, who will carefully consider your goals and lifestyle to create a bespoke training package.</p>
-            <p>With all the <strong> latest equipment</strong>, <strong>modern facilities</strong> and <strong>no monthly contract</strong> we think you will <i class="fas fa-heart"></i> love training with us.</p> 
+        <!--Title-->
+        <div class="container">
+            <h1 class="uppercase page-title">Membership</h1>
+        </div>
+
+        <div class="membership-intro container text-center">
+            <p>We have a range of membership packages available to suit all types of lifestyles! All our packages
+                include credits towards our <strong> fitness classes</strong> and a <strong>individual training
+                    plan</strong> carefully constructed by our in-house instructors, who will carefully consider your
+                goals and lifestyle to create a bespoke training package.</p>
+            <p>With all the <strong> latest equipment</strong>, <strong>modern facilities</strong> and <strong>no
+                    monthly contract</strong> we think you will <i class="fas fa-heart"></i> love training with us.</p>
         </div>
 
         <!--Membership Pricing-->
         <div class="container" id="pricing-table">
             <div class="row d-flex justify-content-center">
-            <div class="row">
-                <div class="col-8">
+                <div class="row">
+                    <div class="col-8">
+                    </div>
+                    <div class="col-4">
+                        <button class="btn btn-primary uppercase" id="most-popular">most popular </button>
+                    </div>
                 </div>
-                <div class="col-4">
-                    <button class="btn btn-primary uppercase" id="most-popular">most popular </button>
-                </div>
-            </div>
-            
-             
+
+
                 <!--Card 1-->
                 <div class="col-4 card text-center" id="bronze">
                     <div class="card-body">
-                        <button class="btn btn-primary card-title uppercase">bronze</button>
+                        <button class="btn btn-primary card-title uppercase">basic</button>
                         <li>Off-Peak Gym Access</i></li>
                         <li>Individual Training Plan</i></li>
                         <li>12 Classes a month</i></li>
@@ -111,23 +116,23 @@
                 <!--Card 2-->
                 <div class="col-4 card text-center" id="silver">
                     <div class="card-body">
-                        <button class="btn btn-primary card-title uppercase">silver</button>
+                        <button class="btn btn-primary card-title uppercase">premium</button>
                         <li>Off-Peak Gym Access</i></li>
                         <li>Individual Training Plan</i></li>
                         <li>20 Classes a month</i></li>
                         <li>Bring a guest</i></li>
                     </div>
                     <div class="card-footer">
-                        <h1>£30</h1>/month
+                        <h1>£35</h1>/month
                     </div>
                 </div>
 
                 <!--Card 3-->
                 <div class="col-4 card text-center" id="gold">
                     <div class="card-body">
-                       
-                        <button class="btn btn-primary card-title uppercase" id="gold-btn">gold</button>
-                        
+
+                        <button class="btn btn-primary card-title uppercase" id="gold-btn">ultimate</button>
+
                         <li>Off-Peak Gym Access</i></li>
                         <li>Peak Gym Access</i></li>
                         <li>Weekly Nutrition Session</i></li>
@@ -136,160 +141,256 @@
                         <li>Bring a guest</i></li>
                     </div>
                     <div class="card-footer">
-                        <h1>£30</h1>/month
+                        <h1>£40</h1>/month
                     </div>
                 </div>
-
-
+                
             </div>
         </div>
-        <!--Membership Form-->
-        <div class="container" id="membership-form">
-            <form>
-                <div class="row gx-5">
-                    <div class="form-group col-md-6">
-                        <label for="firstname">First Name</label>
-                        <input type="text" class="form-control" id="firstname" placeholder="First Name"
-                            aria-label="First Nname">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="surname">Surname</label>
-                        <input type="text" class="form-control" id="surname" placeholder="Surname" aria-label="Surname">
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="form-group col-md-6">
-                        <label for="gender" aria-label="Gender">Gender:</label>
-
-                        <select id="gender">
-                            <option value="male" aria-label="Male">Male</option>
-                            <option value="female" aria-label="Female">Female</option>
-                            <option value="transgender-male" aria-label="Transgender Male">Transgender Male</option>
-                            <option value="transgender-female" aria-label="Transgender Female">Transgender Female
-                            </option>
-                            <option value="gender variant/non-conforming" aria-label="Gender Variant/Non-Conforming">
-                                Gender Variant/Non-Conforming</option>
-                            <option value="prefer not to say" aria-label="Not Listed">Not Listed</option>
-                            <option value="prefer not to say" aria-label="Prefer Not To Answer">Prefer Not To Answer
-                            </option>
-                        </select>
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="dateofbirth">Date Of Birth:</label>
-                        <input type="date" id="dateofbirth" name="dateofbirth" aria-label="Date Of Birth">
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="form-group col-md-6">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email"
-                            aria-label="Email Address">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="inputPassword4">Password</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password"
-                            aria-label="Password">
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label for="inputAddress">Address</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"
-                        aria-label="Address">
-                </div>
-                <div class="form-group">
-                    <label for="inputAddress2">Address 2</label>
-                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"
-                        aria-label="Address 2 - Apartment, studio or floor">
-                </div>
-
-                <div class="row">
-                    <div class="form-group col-md-6">
-                        <label for="inputCity">City</label>
-                        <input type="text" class="form-control" id="inputCity" aria-label="City">
-                    </div>
-                    <div class="form-group col-md-4">
-                        <label for="inputState">State</label>
-                        <input type="text" class="form-control" id="inputState" aria-label="State">
-                    </div>
-                    <div class="form-group col-md-2">
-                        <label for="inputZip">Zip</label>
-                        <input type="text" class="form-control" id="inputZip" aria-label="Zip Code">
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="form-group col-md-6">
-                        <label for="gender" aria-label="Gender">Membership Type:</label>
-
-                        <select id="gender">
-                            <option value="bronze" aria-label="Bronze">Bronze</option>
-                            <option value="silver" aria-label="Silver">Silver</option>
-                            <option value="gold" aria-label="Gold">Gold</option>
-                        </select>
-                    </div>
-                    <div class="form-group col-md-6">
-                        <button type="submit" class="btn btn-primary" aria-label="Join">Join</button>
-                    </div>
-                </div>
-
-            </form>
+        <div class="text-center">
+        <a class="btn btn-primary uppercase" id="membership-button" data-toggle="modal" data-target="#membership-modal">SIGN UP</a>
         </div>
-    </div>
-    
-    <!--Footer-->
-    <div class="container-fluid">
-        <div class="row">
-            <h1>Banner</h1>
-        </div>
+            <footer>
+                <div class="container-fluid">
+                    <div class="row text-center">
+                        <div class="col-4">
+                            <h3 class="text-center uppercase">
+                                Contact Us
+                            </h3>
+                            <address class="contact-text text-center">
+                                <p><i class="fas fa-map-pin contact-icons"></i><strong>The Fitness Centre</strong>&nbsp
+                                    Elmsford,
+                                    New
+                                    York,
+                                    10523<br />
+                                    <i class="fas fa-phone contact-icons"></i> 845-746-6332<br>
+                                    <i class="fas fa-at contact-icons"></i> getfit@thefitnesscentre.com</p>
+                            </address>
+                        </div>
 
-        <div class="row text-center">
-            <div class="col-4">
-                <h3 class="text-center uppercase">
-                    Contact Us
-                </h3>
-                <address class="contact-text text-center">
-                    <i class="fas fa-map-pin contact-icons"></i><strong>The Fitness Centre</strong>&nbsp Elmsford,
-                    New
-                    York,
-                    10523<br />
-                    <i class="fas fa-phone contact-icons"></i> 845-746-6332<br>
-                    <i class="fas fa-at contact-icons"></i> getfit@thefitnesscentre.com
-                </address>
-            </div>
+                        <div class="col-4">
+                            <h3 class="text-center uppercase">
+                                Connect With Us
+                            </h3>
+                            <div class="text-center social-icons">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-whatsapp"></i>
+                                <i class="fab fa-youtube"></i>
+                                <i class="fab fa-pinterest"></i>
+                                <i class="fab fa-google-plus-g"></i>
+                            </div>
+                        </div>
 
-            <div class="col-4">
-                <h3 class="text-center uppercase">
-                    Connect With Us
-                </h3>
-                <div class="text-center social-icons">
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-whatsapp"></i>
-                    <i class="fab fa-youtube"></i>
-                    <i class="fab fa-pinterest"></i>
-                    <i class="fab fa-google-plus-g"></i>
+                        <div class="col-4">
+                            <h3 class="text-center uppercase">
+                                Subscribe to the newsletter
+                            </h3>
+                            <p class="text-center">
+                                Stay up to date with the latest from us
+                            </p>
+                            <form role="form">
+                                <div class="form-group text-center">
+                                    <label for="email"></label>
+                                    <input type="email" placeholder="Email Address" name="email">
+                                    <button type="submit" class="btn btn-primary">SIGN UP</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </footer>
+
+                <!--MODALS-->
+
+        <!--CONTACT-->
+        <div id="contact-modal" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="text-center uppercase">Contact Us</h1>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="hint-text text-center">We'd love to hear from you, please message us with any queries or
+                            comments you may have.</p>
+                        <div class="modal-form">
+                            <form action="https://formdump.codeinstitute.net/" method="post" taget="_blank">
+                                <div class="form-item">
+                                    <label for="inputName">Name<span>*</span></label>
+                                    <input type="text" class="form-control" id="inputName" required>
+                                </div>
+                                <div class="form-item">
+                                    <label for="inputEmail">Email Address<span>*</span></label>
+                                    <input type="email" class="form-control" id="inputEmail" required>
+                                </div>
+                                <div class="form-item">
+                                    <label for="inputMessage">Message<span>*</span></label>
+                                    <textarea class="form-control" id="inputMessage" rows="5" required></textarea>
+                                </div>
+        
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary uppercase" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Send
+                                Message</button>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+        <!--MEMBERSHIP-->
+        <div id="membership-modal" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="text-center">Membership Form</h1>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-form">
+                            <form action="https://formdump.codeinstitute.net/" method="post" taget="_blank">
+                                <div class="form-item">
+                                    <label for="inputFirstName">First Name:<span>*</span></label>
+                                    <input type="text" class="form-control" id="inputFirstName" required>
+                                </div>
+                                <div class="form-item">
+                                    <label for="inputSurname">Surname:<span>*</span></label>
+                                    <input type="text" class="form-control" id="inputSurame" required>
+                                </div>
+                                <div class="form-item">
+                                    <label  class="select-label" for="gender">Gender:<span>*</span></label><br>
+                                    <select class="custom-select">
+                                        <option selected>Open this select menu</option>
+                                        <option value="1">Male</option>
+                                        <option value="2">Female</option>
+                                        <option value="3">Transgender Male</option>
+                                        <option value="3">Transgender Female</option>
+                                        <option value="3">Nonconforming</option>
+                                    </select>
+                                </div>
+                                <div class="form-item">
+                                    <label for="date-of-birth" class="">Date Of Birth:<span>*</span></label>
+                                    <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+                                </div>
+                                <div class="form-item">
+                                    <label for="inputtelephone">Telephone:<span>*</span></label>
+                                    <input type="tel" class="form-control" id="inputTelephone" required>
+                                </div>
+                                <div class="form-item">
+                                    <label for="inputEmail">Email Address:<span>*</span></label>
+                                    <input type="email" class="form-control" id="inputEmail" required>
+                                </div>
+                                <div class="form-item">
+                                    <label for="address1">Address 1:<span>*</span></label>
+                                    <input id="address1" class="form-control" type="text" name="address1" required />
+                                </div>
+                                <div class="form-item">
+                                    <label for="address2">Address 2:</label>
+                                    <input id="address2" class="form-control" type="text" name="address2" required />
+                                </div>
+                                <div class="form-item">
+                                    <label for="city">City:<span>*</span></label>
+                                    <input id="city" class="form-control" type="text" name="city" required />
+                                </div>
+                                <div class="form-item">
+                                    <label for="state">State:<span>*</span></label>
+                                    <input id="state" class="form-control" type="text" name="state" required />
+                                </div>
+                                <div class="form-item">
+                                    <label for="zip">Zip/Postal Code:<span>*</span></label>
+                                    <input id="zip" class="form-control" type="text" name="zip" required />
+                                </div>
 
-            <div class="col-4">
-                <h3 class="text-center uppercase">
-                    Subscribe to the newsletter
-                </h3>
-                <p class="text-center">
-                    Stay up to date with the latest from us
-                </p>
-                <form role="form">
-                    <div class="form-group text-center">
-                        <label for="email"></label>
-                        <input type="email" placeholder="Email Address" name="email">
-                        <button type="submit" class="btn btn-primary">SIGN UP</button>
-                </form>
+                                <div class="form-item">
+                                    <label class="rafor=" zip">Membership Type:<span>*</span></label>#
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="basic-membership"
+                                                    value="basic-membership">
+                                                <label class="form-check-label" for="basic-membership">
+                                                    Basic
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="premium-membership"
+                                                    value="premium=membership">
+                                                <label class="form-check-label" for="premium-membership">
+                                                    Premium
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="ultimate-membership"
+                                                    value="ultimate-membership">
+                                                <label class="form-check-label" for="ultimate-membership">
+                                                    Ultimate
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="30daypass"
+                                                    id="30daypass" value="30-day-pass">
+                                                <label class="form-check-label" for="30daypass">
+                                                    30 Day Free Pass
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="form-item">
+                                    <label class="rafor=" zip">Preferred Method Of Contact:<span>*</span></label>#
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="contact-phone"
+                                                    value="contact-phone">
+                                                <label class="form-check-label" for="contact-phone">
+                                                    Phone
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="contact-text"
+                                                    value="contact-text">
+                                                <label class="form-check-label" for="contact-text">
+                                                    Text
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="contact-email"
+                                                    value="contact-email">
+                                                <label class="form-check-label" for="contact-email">
+                                                    Email
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="contact-any"
+                                                    id="30daypass" value="contact-any">
+                                                <label class="form-check-label" for="contact-any">
+                                                    Any
+                                                </label>
+                                            </div>
+                                            <br>
+                                             </div>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary uppercase"
+                                        data-dismiss="modal">Close</button>
+                                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
 </body>
 

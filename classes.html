@@ -27,7 +27,7 @@
 
 </head>
 
-<body>
+<body class="classes-page">
 
     <!--Navigation-->
     <div class="container-fluid">
@@ -49,7 +49,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#trainers"><b>Trainers</b></a>
+                            <a class="nav-link" href="/index.html#trainers"><b>Trainers</b></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/classes.html"><b>Classes</b></a>
@@ -59,7 +59,8 @@
                             <a class="nav-link" href="/membership.html"><b>Membership</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/contact.html"><b>Contact</b></a>
+                            <a class="nav-link" href="/index.html" data-toggle="modal"
+                                data-target="#contact-modal"><b>Contact</b></a>
                         </li>
                         <li class="nav-item">
                             <button id="menu-btn" type="button" class="btn btn-primary uppercase">Join</button>
@@ -70,220 +71,529 @@
         </div>
     </div>
 
-    <!--Background-->
-    <div class="container classes-bg">
 
-        <!--Title-->
-        <div class="container">
-            <h1 class="uppercase page-title">Classes</h1>
-        </div>
+    <!--Title-->
+    <div class="container">
+        <h1 class="uppercase page-title">Classes</h1>
+    </div>
 
-        <!--Video-->
-        <div class="row">
-            <div class="col-12 text-center">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zjT72b53VR8"></iframe>
-                </div>
-            </div>
-
-
-            <!--Classes-->
-            <div class="container text-center" id="class-cards">
-
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex card h-100">
-
-                        <div class="card-body flex-fill">
-                            <img class="card-img-top" src="/assets/images/classes-strength.png"
-                                alt="Man Holding Dumbells">
-                            <h3 class="card-title uppercase">Strength & Tone</h3>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional
-                                content. This content is a little bit longer.</p>
-                            <div class="row">
-                                <div class="col-12">
-                                    <p class="text-left"><b>Instructor</b></p>
-                                    <p><img class="card-instructor-image" alt="Fitness Instructor - Joseph Gonzalez"
-                                            src="/assets/images/trainer-1.png">
-                                        Joseph Gonzalez</p>
-                                </div>
-                            </div>
-                            <div class="row">
-
-                                <div class="col-4">
-                                    <p><b>Capacity</b></p>
-                                    <i class="fas fa-users"></i>
-                                    <p>20</p>
-                                </div>
-
-                                <div class="col-4">
-                                    <p><b>Intensity</b></p>
-                                    <div class="low uppercase">low</div>
-                                </div>
-
-                                <div class="col-4">
-                                    <p><b>Duration</b></p>
-                                    <i class="fas fa-stopwatch"></i>
-                                    <p>60 Minutes</p>
-                                </div>
-
-
-                            </div>
-
-                            <button class="btn btn-primary uppercase book-class"><a
-                                    href="https://calendly.com/thefitnesscentre/strength-training"
-                                    target="_blank">BOOK</a></button>
-                        </div>
-                    </div>
-                
-
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex card h-100">
-                        <div class="card-body flex-fill">
-                            <img class="card-img-top" src="/assets/images/classes-bootcamp.png"
-                                alt="Man training on battle ropes">
-                            <h3 class="card-title uppercase">Bootcamp</h3>
-                            <p class="card-text">Weaving cardio interval drills and strength circuit exercises, you have a
-                                perfect
-                                combination of two key elements of fitness. Cardio portions may use the step, mixed impact
-                                aerobics,
-                                or kickboxing in a variety of cardio drills, while the strength may include a rotation of
-                                your favorite
-                                exercises and equipment.
-                            </p>
-                            <p class="card-text"><small class="text-muted"><b>Instructor:</b> Name Here</small></p>
-                            <p class="card-text"><small class="text-muted"><b>Duration:</b> 60 minutes</small></p>
-                            <button class="btn btn-primary uppercase"><a
-                                    href="https://calendly.com/thefitnesscentre/bootcamp"
-                                    target="_blank"><b>BOOK</b></a></button>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex card h-100">
-
-                        <div class="card-body flex-fill">
-                            <img class="card-img-top" src="/assets/images/classes-karate.png" alt="karate class">
-                            <h3 class="card-title uppercase">Karate</h3>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional
-                                content. This card has even longer content than the first to show that equal height action.
-                            </p>
-                            <p class="card-text"><small class="text-muted"><b>Instructor:</b> Name Here</small></p>
-                            <p class="card-text"><small class="text-muted"><b>Duration:</b> 60 minutes</small></p>
-                            <button class="btn btn-primary uppercase"><a href="https://calendly.com/thefitnesscentre/karate"
-                                    target="_blank"><b>BOOK</b></a></button>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex card h-100">
-
-                        <div class="card-body flex-fill">
-                            <img class="card-img-top" src="/assets/images/classes-pilates.png"
-                                alt="female instructor helping client with situps">
-                            <h3 class="card-title uppercase">Pilates</h3>
-                            <p class="card-text"> A mind and body exercise evolved from the principles of Joseph Pilates.
-                                This conditioning
-                                program incorporates strengthening, toning and stretching exercises for a full body workout.
-                                Proper
-                                breathing techniques, core training and flexibility are key portions of these classes.
-                            </p>
-                            <p class="card-text"><small class="text-muted"><b>Instructor:</b> Name Here</small></p>
-                            <p class="card-text"><small class="text-muted"><b>Duration:</b> 60 minutes</small></p>
-                            <button class="btn btn-primary uppercase"><a
-                                    href="https://calendly.com/thefitnesscentre/pilates"
-                                    target="_blank"><b>BOOK</b></a></button>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex card h-100">
-
-                        <div class="card-body flex-fill">
-                            <img class="card-img-top" src="/assets/images/classes-boxercise.png"
-                                alt="man wearing boxing gloves">
-                            <h3 class="card-title uppercase">Boxercise</h3>
-                            <p class="card-text">A combination of martial arts moves and sport specific cardiovascular
-                                combinations to
-                                achieve a full-body workout. This class may include some workout on step, punching bags, and
-                                various
-                                equipment. </p>
-                            <p class="card-text"><small class="text-muted"><b>Instructor:</b> Name Here</small></p>
-                            <p class="card-text"><small class="text-muted"><b>Duration:</b> 60 minutes</small></p>
-                            <button class="btn btn-primary uppercase"><a
-                                    href="https://calendly.com/thefitnesscentre/boxercise"
-                                    target="_blank"><b>BOOK</b></a></button>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex card h-100">
-                        <div class="card-body flex-fill">
-                            <img class="card-img-top" src="/assets/images/classes-yoga.png" alt="woman in a yoga position">
-                            <h3 class="card-title uppercase">Yoga</h3>
-                            <p class="card-text">Yoga blends flexibility and muscle toning movements with a mental focus on
-                                the mind, body and
-                                spiritual well-being of the participant. Classes will offer a variety in disciplines and
-                                methods of yoga
-                                practices. Styles of classes will vary from sun salutations, poses , to a more aerobic flow
-                            </p>
-                            <p class="card-text"><small class="text-muted"><b>Instructor:</b> Name Here</small></p>
-                            <p class="card-text"><small class="text-muted"><b>Duration:</b> 60 minutes</small></p>
-                            <button class="btn btn-primary uppercase"><a href="https://calendly.com/thefitnesscentre/yoga"
-                                    target="_blank"><b>BOOK</b></a></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!--Video-->
+    <div class="container">
+        <div id="video" class="embed-responsive embed-responsive-16by9 text-center">
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/zjT72b53VR8">
+            </iframe>
 
         </div>
     </div>
 
 
 
-    <div class="container-fluid">
-        <div class="row">
-            <h1>Banner</h1>
-        </div>
 
-        <div class="row text-center">
-            <div class="col-4">
-                <h3 class="text-center uppercase">
-                    Contact Us
-                </h3>
-                <address class="contact-text text-center">
-                    <i class="fas fa-map-pin contact-icons"></i><strong>The Fitness Centre</strong>&nbsp Elmsford,
-                    New
-                    York,
-                    10523<br />
-                    <i class="fas fa-phone contact-icons"></i> 845-746-6332<br>
-                    <i class="fas fa-at contact-icons"></i> getfit@thefitnesscentre.com
-                </address>
+    <!--Classes-->
+    <div class="container text-center" id="class-cards">
+    
+         <div class="row">
+
+            <!--Strength & Tone Class-->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 card">
+                <div class="card-body flex-fill">
+                    <img class="card-img-top" src="/assets/images/classes-strength.png" alt="Man lifting dumbell">
+                    <h3 class="card-title uppercase">Strength & Tone</h3>
+                    <p class="h-25 card-text">Designed for gym members that are looking to get that muscle definition, strength, increased fitness levels, and most importantly help to improve overall health.
+                    </p>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="text-left"><b>Instructor</b></p>
+                            <p><img class="card-instructor-image" alt="Fitness Instructor - Joseph Gonzalez"
+                                    src="/assets/images/trainer-1.png">
+                                Joseph Gonzalez</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 class-info">
+                            <p>Capacity</p>
+                            <i class="fas fa-users"></i>
+                            <p>20</p>
+                        </div>
+                        <div class="col-4 class-info">
+                            <p>Intensity</p>
+                            <div class="medium uppercase">medium</div>
+                        </div>
+                        <div class="col-4 class-info">
+                            <p>Duration</p>
+                            <i class="fas fa-stopwatch"></i>
+                            <p>60 Minutes</p>
+                        </div>
+                        <button class="btn btn-primary uppercase"><a href="https://calendly.com/thefitnesscentre/strength-training"
+                                target="_blank"><b>BOOK CLASS</b></a></button>
+                    </div>
+                </div>
             </div>
-
-            <div class="col-4">
-                <h3 class="text-center uppercase">
-                    Connect With Us
-                </h3>
-                <div class="text-center social-icons">
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-whatsapp"></i>
-                    <i class="fab fa-youtube"></i>
-                    <i class="fab fa-pinterest"></i>
-                    <i class="fab fa-google-plus-g"></i>
+               
+            <!--Bootcamp Class-->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 card">
+                <div class="card-body flex-fill">
+                    <img class="card-img-top" src="/assets/images/classes-bootcamp.png" alt="Man training on battle ropes">
+                    <h3 class="card-title uppercase">Bootcamp</h3>
+                    <p class="h-25 card-text">Short, Sharp, High intensity interval training designed to help achieve your
+                        fitness goals within a short space of time.
+                        Work your way around the training circuit of equipment, stopping for 60 seconds at each one to
+                        carry out an activity.
+                        Our trainer will be there to motivate you all the way!
+                    </p>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="text-left"><b>Instructor</b></p>
+                            <p><img class="card-instructor-image" alt="Fitness Instructor - James Crown"
+                                    src="/assets/images/trainer-4.png">
+                                James Crown</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 class-info">
+                            <p>Capacity</p>
+                            <i class="fas fa-users"></i>
+                            <p>10</p>
+                        </div>
+                        <div class="col-4 class-info">
+                            <p>Intensity</p>
+                            <div class="high uppercase">high</div>
+                        </div>
+                        <div class="col-4 class-info">
+                            <p>Duration</p>
+                            <i class="fas fa-stopwatch"></i>
+                            <p>60 Minutes</p>
+                        </div>
+                        <button class="btn btn-primary uppercase"><a href="https://calendly.com/thefitnesscentre/bootcamp"
+                                target="_blank"><b>BOOK CLASS</b></a></button>
+                    </div>
+                </div>
+            </div>
+    
+            <!--Karate Class-->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 card">
+    
+                <div class="card-body flex-fill">
+                    <img class="card-img-top" src="/assets/images/classes-karate.png" alt="karate class">
+                    <h3 class="card-title uppercase">Karate</h3>
+                    <p class="h-25 card-text">Train and learn the art of Karate with our in house sensei. Wether its for
+                        self-defence or
+                        develop mind and body through fighting techniques. Karate is a great all round training
+                        class that will help you develop your mind and muscle.
+                    </p>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="text-left"><b>Instructor</b></p>
+                            <p><img class="card-instructor-image" alt="Fitness Instructor - Robin Green"
+                                    src="/assets/images/trainer-3.png">
+                                Robin Green</p>
+                        </div>
+                    </div>
+                    <div class="row">
+    
+                        <div class="col-4 class-info">
+                            <p>Capacity</p>
+                            <i class="fas fa-users"></i>
+                            <p>12</p>
+                        </div>
+    
+                        <div class="col-4 class-info">
+                            <p>Intensity</p>
+                            <div class="medium uppercase">medium</div>
+                        </div>
+    
+                        <div class="col-4 class-info">
+                            <p>Duration</p>
+                            <i class="fas fa-stopwatch"></i>
+                            <p>60 Minutes</p>
+                        </div>
+                        <button class="btn btn-primary uppercase"><a href="https://calendly.com/thefitnesscentre/karate"
+                                target="_blank"><b>BOOK CLASS</b></a></button>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-4">
-                <h3 class="text-center uppercase">
-                    Subscribe to the newsletter
-                </h3>
-                <p class="text-center">
-                    Stay up to date with the latest from us
-                </p>
-                <form role="form">
-                    <div class="form-group text-center">
-                        <label for="email"></label>
-                        <input type="email" placeholder="Email Address" name="email">
-                        <button type="submit" class="btn btn-primary">SIGN UP</button>
-                </form>
+            <!--Pilates-->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 card">
+                <div class="card-body flex-fill">
+                    <img class="card-img-top" src="/assets/images/classes-pilates.png" alt="Trainer with client teaching pilates">
+                    <h3 class="card-title uppercase">Pilates</h3>
+                    <p class="h-25 card-text">A mind and body exercise developed by the german physical trainer, Joseph Pilates. Incorporating strength, toning and stretching excercise, these classes offer a full body work out.
+                    </p>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="text-left"><b>Instructor</b></p>
+                            <p><img class="card-instructor-image" alt="Fitness Instructor - Kirsten Hogan"
+                                    src="/assets/images/trainer-2.png">
+                                Kirsten Hogan</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 class-info">
+                            <p>Capacity</p>
+                            <i class="fas fa-users"></i>
+                            <p>20</p>
+                        </div>
+                        <div class="col-4 class-info">
+                            <p>Intensity</p>
+                            <div class="low uppercase">low</div>
+                        </div>
+                        <div class="col-4 class-info">
+                            <p>Duration</p>
+                            <i class="fas fa-stopwatch"></i>
+                            <p>60 Minutes</p>
+                        </div>
+                        <button class="btn btn-primary uppercase"><a href="https://calendly.com/thefitnesscentre/pilates"
+                                target="_blank"><b>BOOK CLASS</b></a></button>
+                    </div>
+                </div>
             </div>
+               
+            <!--Bootcamp Class-->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 card">
+                <div class="card-body flex-fill">
+                    <img class="card-img-top" src="/assets/images/classes-boxercise.png" alt="Man wearing boxing gloves">
+                    <h3 class="card-title uppercase">Boxercise</h3>
+                    <p class="h-25 card-text">A high intensity martial arts based class with a combination of martial arts moves and sport specific cardiovascular This class include some workout on punching bags, speed bags and strikemen.
+                    </p>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="text-left"><b>Instructor</b></p>
+                            <p><img class="card-instructor-image" alt="Fitness Instructor - Joseph Gonzalez"
+                                    src="/assets/images/trainer-4.png">
+                                Joseph Gonzalez</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 class-info">
+                            <p>Capacity</p>
+                            <i class="fas fa-users"></i>
+                            <p>10</p>
+                        </div>
+                        <div class="col-4 class-info">
+                            <p>Intensity</p>
+                            <div class="high uppercase">high</div>
+                        </div>
+                        <div class="col-4 class-info">
+                            <p>Duration</p>
+                            <i class="fas fa-stopwatch"></i>
+                            <p>30 Minutes</p>
+                        </div>
+                        <button class="btn btn-primary uppercase"><a href="https://calendly.com/thefitnesscentre/boxercise"
+                                target="_blank"><b>BOOK CLASS</b></a></button>
+                    </div>
+                </div>
+            </div>
+    
+            <!--Yoga Class-->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 card">
+    
+                <div class="card-body flex-fill">
+                    <img class="card-img-top" src="/assets/images/classes-yoga.png" alt="woman in yoga position">
+                    <h3 class="card-title uppercase">Yoga</h3>
+                    <p class="h-25 card-text">Our yoga classes offer a variety of diciplines and methods of practicing yoga. Aimed at developing your flexibility, muscle toning and mind. Yoga is well known to improve many aspects of our bodies for people of all ages and abilities.
+                    </p>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="text-left"><b>Instructor</b></p>
+                            <p><img class="card-instructor-image" alt="Fitness Instructor - Kirsten Hogan"
+                                    src="/assets/images/trainer-2.png">
+                                Kirsten Hogan</p>
+                        </div>
+                    </div>
+                    <div class="row">
+    
+                        <div class="col-4 class-info">
+                            <p>Capacity</p>
+                            <i class="fas fa-users"></i>
+                            <p>20</p>
+                        </div>
+    
+                        <div class="col-4 class-info">
+                            <p>Intensity</p>
+                            <div class="low uppercase">low</div>
+                        </div>
+    
+                        <div class="col-4 class-info">
+                            <p>Duration</p>
+                            <i class="fas fa-stopwatch"></i>
+                            <p>60 Minutes</p>
+                        </div>
+                        <button class="btn btn-primary uppercase"><a href="https://calendly.com/thefitnesscentre/yoga"
+                                target="_blank"><b>BOOK CLASS</b></a></button>
+                    </div>
+                </div>
+            </div>
+    
+            
         </div>
     </div>
+    </div>
+
+
+
+                    <footer>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="footer-banner uppercase">
+                                    <h1>Why not sign up to our<br>no obligation unrestricted access<br>30 day free pass
+                                    </h1>
+                                    <a class="btn btn-primary uppercase" id="footer-button" data-toggle="modal"
+                                        data-target="/index.html#membership-modal">SIGN UP</a>
+                                </div>
+
+                            </div>
+
+                            <div class="row text-center">
+                                <div class="col-4">
+                                    <h3 class="text-center uppercase">
+                                        Contact Us
+                                    </h3>
+                                    <address class="contact-text text-center">
+                                        <p><i class="fas fa-map-pin contact-icons"></i><strong>The Fitness
+                                                Centre</strong>&nbsp
+                                            Elmsford,
+                                            New
+                                            York,
+                                            10523<br />
+                                            <i class="fas fa-phone contact-icons"></i> 845-746-6332<br>
+                                            <i class="fas fa-at contact-icons"></i> getfit@thefitnesscentre.com</p>
+                                    </address>
+                                </div>
+
+                                <div class="col-4">
+                                    <h3 class="text-center uppercase">
+                                        Connect With Us
+                                    </h3>
+                                    <div class="text-center social-icons">
+                                        <i class="fab fa-facebook"></i>
+                                        <i class="fab fa-twitter"></i>
+                                        <i class="fab fa-whatsapp"></i>
+                                        <i class="fab fa-youtube"></i>
+                                        <i class="fab fa-pinterest"></i>
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </div>
+                                </div>
+
+                                <div class="col-4">
+                                    <h3 class="text-center uppercase">
+                                        Subscribe to the newsletter
+                                    </h3>
+                                    <p class="text-center">
+                                        Stay up to date with the latest from us
+                                    </p>
+                                    <form role="form">
+                                        <div class="form-group text-center">
+                                            <label for="email"></label>
+                                            <input type="email" placeholder="Email Address" name="email">
+                                            <button type="submit" class="btn btn-primary">SIGN UP</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+
+                    <!--MODALS-->
+
+                    <!--CONTACT-->
+                    <div id="contact-modal" class="modal" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="text-center uppercase">Contact Us</h1>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="hint-text text-center">We'd love to hear from you, please message us with
+                                        any queries or
+                                        comments you may have.</p>
+                                    <div class="modal-form">
+                                        <form action="https://formdump.codeinstitute.net/" method="post" taget="_blank">
+                                            <div class="form-item">
+                                                <label for="inputName">Name<span>*</span></label>
+                                                <input type="text" class="form-control" id="inputName" required>
+                                            </div>
+                                            <div class="form-item">
+                                                <label for="inputEmail">Email Address<span>*</span></label>
+                                                <input type="email" class="form-control" id="inputEmail" required>
+                                            </div>
+                                            <div class="form-item">
+                                                <label for="inputMessage">Message<span>*</span></label>
+                                                <textarea class="form-control" id="inputMessage" rows="5"
+                                                    required></textarea>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary uppercase"
+                                            data-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i>
+                                            Send
+                                            Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--MEMBERSHIP-->
+                    <div id="membership-modal" class="modal" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="text-center">Membership Form</h1>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="modal-form">
+                                        <form action="https://formdump.codeinstitute.net/" method="post" taget="_blank">
+                                            <div class="form-item">
+                                                <label for="inputFirstName">First Name:<span>*</span></label>
+                                                <input type="text" class="form-control" id="inputFirstName" required>
+                                            </div>
+                                            <div class="form-item">
+                                                <label for="inputSurname">Surname:<span>*</span></label>
+                                                <input type="text" class="form-control" id="inputSurame" required>
+                                            </div>
+                                            <div class="form-item">
+                                                <label class="select-label"
+                                                    for="gender">Gender:<span>*</span></label><br>
+                                                <select class="custom-select">
+                                                    <option selected>Open this select menu</option>
+                                                    <option value="1">Male</option>
+                                                    <option value="2">Female</option>
+                                                    <option value="3">Transgender Male</option>
+                                                    <option value="3">Transgender Female</option>
+                                                    <option value="3">Nonconforming</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-item">
+                                                <label for="date-of-birth" class="">Date Of Birth:<span>*</span></label>
+                                                <input class="form-control" type="date" value="2011-08-19"
+                                                    id="example-date-input">
+                                            </div>
+                                            <div class="form-item">
+                                                <label for="inputtelephone">Telephone:<span>*</span></label>
+                                                <input type="tel" class="form-control" id="inputTelephone" required>
+                                            </div>
+                                            <div class="form-item">
+                                                <label for="inputEmail">Email Address:<span>*</span></label>
+                                                <input type="email" class="form-control" id="inputEmail" required>
+                                            </div>
+                                            <div class="form-item">
+                                                <label for="address1">Address 1:<span>*</span></label>
+                                                <input id="address1" class="form-control" type="text" name="address1"
+                                                    required />
+                                            </div>
+                                            <div class="form-item">
+                                                <label for="address2">Address 2:</label>
+                                                <input id="address2" class="form-control" type="text" name="address2"
+                                                    required />
+                                            </div>
+                                            <div class="form-item">
+                                                <label for="city">City:<span>*</span></label>
+                                                <input id="city" class="form-control" type="text" name="city"
+                                                    required />
+                                            </div>
+                                            <div class="form-item">
+                                                <label for="state">State:<span>*</span></label>
+                                                <input id="state" class="form-control" type="text" name="state"
+                                                    required />
+                                            </div>
+                                            <div class="form-item">
+                                                <label for="zip">Zip/Postal Code:<span>*</span></label>
+                                                <input id="zip" class="form-control" type="text" name="zip" required />
+                                            </div>
+
+                                            <div class="form-item">
+                                                <label class="rafor=" zip">Membership Type:<span>*</span></label>#
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="basic-membership" value="basic-membership">
+                                                            <label class="form-check-label" for="basic-membership">
+                                                                Basic
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="premium-membership" value="premium=membership">
+                                                            <label class="form-check-label" for="premium-membership">
+                                                                Premium
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ultimate-membership" value="ultimate-membership">
+                                                            <label class="form-check-label" for="ultimate-membership">
+                                                                Ultimate
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="30daypass" id="30daypass" value="30-day-pass">
+                                                            <label class="form-check-label" for="30daypass">
+                                                                30 Day Free Pass
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div class="form-item">
+                                                <label class="rafor=" zip">Preferred Method Of
+                                                    Contact:<span>*</span></label>#
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="contact-phone" value="contact-phone">
+                                                            <label class="form-check-label" for="contact-phone">
+                                                                Phone
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="contact-text" value="contact-text">
+                                                            <label class="form-check-label" for="contact-text">
+                                                                Text
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="contact-email" value="contact-email">
+                                                            <label class="form-check-label" for="contact-email">
+                                                                Email
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="contact-any" id="30daypass" value="contact-any">
+                                                            <label class="form-check-label" for="contact-any">
+                                                                Any
+                                                            </label>
+                                                        </div>
+                                                        <br>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary uppercase"
+                                                    data-dismiss="modal">Close</button>
+                                                <button type="submit" class="btn btn-primary">Sign Up</button>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
 
 </body>
 

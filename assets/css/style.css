@@ -6,6 +6,8 @@ body {
     background-color: #000;
 }
 
+
+
 h1 {
     color: #fff;
     font-family: "Roboto", sans-serif;
@@ -40,6 +42,10 @@ p {
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.navbar {
+    background-color: none;
 }
 
 .nav-item {
@@ -208,13 +214,23 @@ p {
 
 footer {
     padding-bottom: 2rem;
+    background-color: #000;
+    border-top: #6D980F solid 0.2rem;
 }
 
-#footer-banner {
-    background-image: url(/assets/images/footer-banner.png);    
+.footer-banner {
+    background-image: url(/assets/images/footer-banner.png);
     background-size: cover;
-    height: 10rem;
-    width: 100%;
+    height: 15rem;
+}
+
+.footer-banner a {
+    padding: 1rem 4rem;
+}
+
+.footer-banner h1 {
+    font-weight: 400;
+    padding-top: 1rem;
 }
 
 footer h3 {
@@ -223,8 +239,8 @@ footer h3 {
 }
 
 footer p {
-    font-size: 0.8rem;
     color: #777676;
+    font-size: 1rem;
 }
 
 input {
@@ -235,8 +251,18 @@ input {
 
 footer .btn {
     border-radius: 0;
-    height: 2rem;
     margin-top: -0.3rem;
+}
+
+footer .contact-icons {
+    color: #049DD9;
+    padding-right: 0.2rem;
+    font-size: 1rem;
+}
+
+footer .contact-text {
+    font-size: 0.8rem;
+    color: #777676;
 }
 
 footer .social-icons {
@@ -244,12 +270,6 @@ footer .social-icons {
     padding: 0.5rem;
     letter-spacing: 0.3rem;
     font-size: 1.2rem;
-}
-
-footer .contact-icons {
-    color: #049DD9;
-    padding-right: 0.2rem;
-    font-size: 1rem;
 }
 
 footer address {
@@ -260,31 +280,83 @@ footer address {
 
 /* CLASSES PAGE */
 
-.classes-bg {
-    background-image:
-    linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%),
-    url(/assets/images/classes-bg.png);
+.classes-page {
+background-image:
+        linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%),
+        url(/assets/images/classes-bg.png);
     background-size: cover;
 }
 
+#video iframe {
+border: none;
+height: 720px;
+width:1080px;
+}
+
 #class-cards .card {
-    background-color:rgba(0, 0, 0, 0);
-    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: #6D980F solid 0.1rem;
+    width: 25rem;
+    margin:  2rem auto;
+    padding: 0rem;
 }
 
 #class-cards .card-body {
-    background-color:none;
+    background-color: none;
     border-radius: 5rem;
 }
 
 #class-cards .card-body .card-img-top {
-    border-radius: 10rem;
-    width: 15rem;
+    width: 20rem;
 }
 
 #class-cards h3 {
     font-size: 1.2rem;
     padding-top: 0.5rem;
+}
+
+#class-cards .card-body .card-instructor-image {
+    height: 4rem;
+    border-radius: 10rem;
+}
+
+#class-cards .class-info p {
+    margin-bottom: 0.1rem;
+}
+
+#class-cards .card-body i {
+    font-size: 1.2rem;
+    color: #049DD9;
+}
+
+#class-cards .card-body .low {
+    background-color: green;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#class-cards .card-body .medium {
+    background-color: orange;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#class-cards .card-body .high {
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 #class-cards button a {
@@ -293,30 +365,16 @@ footer address {
     text-decoration: none;
 }
 
-#class-cards .card-body .card-instructor-image {
-    height: 4rem;
-    border-radius: 10rem;
-}
-
-#class-cards .card-body i {
-    font-size: 2rem;
-    color:#049DD9;
-}
-
-#class-cards .card-body .low {
-    background-color: green;
-    color: white;
-    font-weight: 500;
-    letter-spacing: 0.1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+#class-cards .card-body button {
+    margin: 1rem 0rem;
+    position: relative;
 }
 
 /* MEMBERSHIP PAGE */
-.membership-bg {
-    background-image:
-    linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%),
-    url(/assets/images/membership-bg.jpeg);
+.membership-page {
+background-image:
+        linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%),
+        url(/assets/images/membership-bg.jpeg);
     background-size: cover;
 }
 
@@ -325,7 +383,7 @@ footer address {
 }
 
 .membership-intro strong {
-    color:#6d980f;
+    color: #6d980f;
     font-weight: 600;
 }
 
@@ -335,7 +393,7 @@ footer address {
 
 #pricing-table {
     font-family: "lato", sans-serif;
-width: 90%;    
+    width: 90%;
 }
 
 #pricing-table button {
@@ -350,7 +408,7 @@ width: 90%;
 #pricing-table .card-body .title {
     text-shadow: 0.5rem 0.5rem 0.5rem #000;
     color: #fff;
-    
+
 }
 
 #pricing-table .card-footer h1 {
@@ -359,7 +417,7 @@ width: 90%;
 }
 
 #pricing-table #bronze {
-    background-color:#6D980F; 
+    background-color: #6D980F;
     color: #fff;
     font-weight: 400;
     font-size: 1rem;
@@ -370,7 +428,7 @@ width: 90%;
 
 #pricing-table #silver {
     background-color: #049DD9;
-    color:#fff;
+    color: #fff;
     font-weight: 400;
     font-size: 1rem;
     line-height: 2rem;
@@ -397,12 +455,103 @@ width: 90%;
     font-size: 1rem;
     position: absolute;
     margin-left: 2.2rem;
-    margin-top:0.5rem;
+    margin-top: 0.5rem;
     z-index: 1;
 }
 
+#membership-button {
+    padding: 1rem 8rem;
+    margin-bottom: 3rem;
+}
 
-/* MOBILE */
+
+/* MODALS */
+#contact-modal .modal-header {
+    position: relative;
+    height: 10rem;
+    ;
+    background-image: url("/assets/images/contact-modal-header.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#membership-modal .modal-header {
+    position: relative;
+    height: 10rem;
+    ;
+    background-image: url("/assets/images/membership-modal-header.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-header h1 {
+
+    color: #fff;
+}
+
+.modal-content {
+    background: #000;
+    border: #777676 solid 0.2rem;
+}
+
+.modal-form {
+    padding: 2rem 1rem;
+}
+
+.modal-form form {
+    background: #000;
+    padding: 0.5rem;
+}
+
+.modal-form .form-group {
+    margin-bottom: 1rem;
+}
+
+.modal-form .form-item span {
+    color: red;
+}
+
+.modal-form .btn {
+    background: #049DD9;
+    font-size: 1rem;
+    min-height: 3rem;
+    border: none;
+}
+
+.modal-form .btn i {
+    margin-right: 5px;
+}
+
+.modal-form label {
+    color: #bbb;
+    font-weight: normal;
+}
+
+.modal-form textarea {
+    resize: vertical;
+}
+
+.hint-text {
+    font-size: 15px;
+    font-weight: 300;
+    color: #bbb;
+    margin: 0rem;
+}
+
+.modal-footer .btn-primary {
+    background: #049DD9;
+}
+
+.form-control {
+    margin-bottom: 0.5rem;
+}
+
+
+
 @media screen and (max-width:767px) {
 
     .col {
@@ -431,33 +580,39 @@ width: 90%;
         width: 100%;
         background-color: rgba(0, 0, 255, 0);
     }
+
     .jumbotron h1 {
         font-size: 6vw;
     }
 
     /* MOBILE - FACILITIES SECTION */
+
     #facilities-section h2 {
         padding: 0rem 0rem;
     }
+
     #facilities-section p {
         padding: 0rem 0rem;
     }
 
-/* MOBILE-TRAINER SECTION */
+    /* MOBILE-TRAINER SECTION */
     #trainer-section .badge-default {
         padding: 0.5rem 1rem;
         position: absolute;
     }
+
     #trainer-section .trainer-info {
         padding-left: 0.5rem;
         margin-bottom: 0.5rem;
         font-size: 0.8rem;
     }
+
     .progress {
         height: 0.8rem;
         margin-bottom: 0.5rem;
         margin-left: 0.5rem;
     }
+
     .progress-bar {
         background-color: #6D980F;
         color: #fff;
@@ -468,38 +623,43 @@ width: 90%;
         text-align: start;
         text-indent: 0.5em;
     }
+
     #trainer-section .trainer-button {
         padding: 0.4rem 0.4rem;
         position: relative;
         margin-left: 0.5rem;
     }
 
- /* MOBILE-TESTIMONIAL SECTION */    
+    /* MOBILE-TESTIMONIAL SECTION */
     #testimonial-section .badge-default {
         position: relative;
         top: -2.5rem;
         padding: 0.5rem 1rem;
     }
+
     #testimonial-section p {
         font-weight: 300;
         margin-bottom: 0;
         color: #fff;
     }
-    #testimonial-section h1{
+
+    #testimonial-section h1 {
         font-size: 2rem;
     }
+
     #abs {
         width: 40%;
     }
+
     #Aaron {
         width: 30%;
     }
+
     #Amy {
         width: 40%;
     }
-    
-/* MOBILE-FOOTER SECTION */
 }
+
 
 /* TABLET */
 @media screen and (min-width:768px) and (max-width:1023px) {
@@ -507,28 +667,25 @@ width: 90%;
         display: none;
     }
 
-/* TABLET-HERO SECTION */
+    /* TABLET-HERO SECTION */
 
     .jumbotron {
-    background-image: url("/assets/images/hero-image.png");
-    height: 80vh;
-    margin-top: 4rem;
-}
+        background-image: url("/assets/images/hero-image.png");
+        height: 80vh;
+        margin-top: 4rem;
+    }
 
-/* TABLET-FACILITIES SECTION */
+    /* TABLET-FACILITIES SECTION */
 
-.carousel-inner {
-  height: 50vh;
-  width: 80vh;
-}
+    .carousel-inner {
+        height: 50vh;
+        width: 80vh;
+    }
 
-.carousel-inner img {
-  height: 50vh;
-  width: 80vh;
-}
-
-
-
+    .carousel-inner img {
+        height: 50vh;
+        width: 80vh;
+    }
 }
 
 
