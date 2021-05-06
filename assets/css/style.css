@@ -52,6 +52,29 @@ p {
     text-align: right;
 }
 
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+    padding-right: 3rem;
+}
+
+.navbar-nav .nav-item .active{
+    color: red;
+    padding-right: 3rem;
+}
+
+.navbar a :hover {
+  color: #B2E533
+}
+
+.navbar .active > a b {
+  border-bottom:#B2E533 solid 0.2rem;
+}
+
+#menu-btn {
+    margin-right: 2rem;
+    padding: 0.5rem 2rem;
+}
+
 .page-title {
     font-size: 4rem;
 }
@@ -91,14 +114,17 @@ p {
     font-size: 3vw;
 }
 
-#hero-section button {
-    background-color: #049DD9;
+#jumbotron-button {
+    background: #049DD9;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 /* FACILITIES SECTION */
 
-#carousel {
-}
+#carousel {}
 
 .fac-icon {
     font-size: 4vw;
@@ -122,23 +148,7 @@ p {
 
 #instructor-section img {
     width: 100%;
-}
-
-#instructor-section .badge-default {
-    position: relative;
-    top: -2.5rem;
-    background: #049DD9;
-    text-align: center;
-    color: white;
-    padding: 0.5rem 2rem;
-    color: #fff;
-    font-family: "Lato", sans-serif;
-    border-radius: 0;
-}
-
-#instructor-section .badge-default p {
-    font-weight: 300;
-    margin-bottom: 0;
+    margin-top: 2rem;
 }
 
 .progress {
@@ -284,52 +294,52 @@ footer address {
 /* CLASSES PAGE */
 
 .classes-page {
-background-image:
+    background-image:
         linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%),
         url(/assets/images/classes-bg.png);
     background-size: cover;
 }
 
 #video iframe {
-border: none;
-height: 720px;
-width:1080px;
+    border: none;
+    height: 720px;
+    width: 1080px;
 }
 
-#class-cards .card {
+.card {
     background-color: rgba(0, 0, 0, 0.0);
     border: #6D980F solid 0.1rem;
     width: 25rem;
-    margin:  2rem auto;
+    margin: 2rem auto;
     padding: 0rem;
 }
 
-#class-cards .card-body {
+.card-body {
     background-color: none;
     border-radius: 5rem;
     height: 57rem;
 }
 
-#class-cards .card-body .card-img-top {
+.card-body .card-img-top {
     width: 20rem;
 }
 
-#class-cards h3 {
-    font-size: 1.2rem;
+.card-title {
+    font-size: 2rem;
+    margin: 0;
     padding-top: 0.5rem;
+    font-weight: 700;
 }
 
-#class-cards .card-body .card-instructor-image {
+.card-body .card-instructor-image {
     width: 5rem;
-
 }
 
-#class-cards .class-info p {
+.class-info p {
     margin-bottom: 0.1rem;
-
 }
 
-#class-cards .card-body i {
+.card-body i {
     font-size: 1.2rem;
     color: #049DD9;
 }
@@ -377,12 +387,57 @@ width:1080px;
     background: #6d980f;
 }
 
+.nutrition-bg{
+      background-image: url(/assets/images/classes-nutrition.png);
+  background-repeat: none;
+  background-size: cover;
+}
+
+#nutrition-block { 
+  margin: 2rem; 
+}
+
+#nutrition-block img { 
+  width: 1rem;
+}
+
+#nutrition-block h1 { 
+  color: #049DD9;
+  padding-top:0.5rem;
+}
+
+#nutrition-block p { 
+  color: #049DD9;
+  font-weight: 400;
+}
+
+#nutrition-block button { 
+  margin-bottom: 1rem;
+}
+
+
+
 /* MEMBERSHIP PAGE */
 .membership-page {
-background-image:
+    background-image:
         linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%),
         url(/assets/images/membership-bg.jpeg);
     background-size: cover;
+}
+
+#pricing-table .card-img-top {
+    border-radius: 10rem;
+    border: #6D980F solid 0.2rem;
+    margin-bottom: 1rem;
+}
+
+#pricing-table .card-title {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+#pricing-table li p {
+    font-weight: 400;
 }
 
 .membership-intro {
@@ -398,85 +453,16 @@ background-image:
     color: red;
 }
 
-#pricing-table {
-    font-family: "lato", sans-serif;
-    width: 90%;
-}
-
-#pricing-table button {
-    background-color: #fff;
-    color: #049DD9;
-    border-radius: 1.5rem;
-    padding: 0.5rem 1rem;
-    height: 3rem;
-    width: 8rem;
-}
-
-#pricing-table .card-body .title {
-    text-shadow: 0.5rem 0.5rem 0.5rem #000;
-    color: #fff;
-
-}
-
-#pricing-table .card-footer h1 {
-    text-shadow: 0.5rem 0.5rem 0.5rem #000;
-    color: #fff;
-}
-
-#pricing-table #bronze {
-    background-color: #6D980F;
-    color: #fff;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 2rem;
-    margin: 2rem;
-    width: 20%;
-}
-
-#pricing-table #silver {
-    background-color: #049DD9;
-    color: #fff;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 2rem;
-    margin: 2rem;
-    width: 20%;
-}
-
-#pricing-table #gold {
-    background-color: #6D980F;
-    color: #fff;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 2rem;
-    width: 20%;
-    margin: 2rem;
-}
-
-#pricing-table #most-popular {
-    border-radius: 0;
-    background-color: #049DD9;
-    color: #fff;
-    padding: 0rem;
-    height: 2rem;
-    font-size: 1rem;
-    position: absolute;
-    margin-left: 2.2rem;
-    margin-top: 0.5rem;
-    z-index: 1;
-}
-
 #membership-button {
-    padding: 1rem 8rem;
-    margin-bottom: 3rem;
+    width: 80%;
+    padding: 2rem 0rem;
+    background-color:#049DD9;
 }
-
 
 /* MODALS */
 #contact-modal .modal-header {
     position: relative;
     height: 10rem;
-    ;
     background-image: url("/assets/images/contact-modal-header.png");
     background-size: cover;
     display: flex;
@@ -703,3 +689,8 @@ background-image:
         display: none;
     }
 }
+
+
+
+
+
