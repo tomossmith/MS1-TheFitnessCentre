@@ -6,8 +6,6 @@ body {
     background-color: #000;
 }
 
-
-
 h1 {
     color: #fff;
     font-family: "Roboto", sans-serif;
@@ -50,6 +48,7 @@ p {
 
 .nav-item {
     text-align: right;
+    font-size: 0.8rem;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -77,7 +76,7 @@ p {
 }
 
 .page-title {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 .card-body {
@@ -276,7 +275,7 @@ footer h3 {
 
 footer p {
     color: #777676;
-    font-size: 1rem;
+    font-size: 14px;
 }
 
 input {
@@ -288,6 +287,7 @@ input {
 footer .btn {
     border-radius: 0;
     margin-top: -0.3rem;
+    background-color: #049DD9;
 }
 
 footer .contact-icons {
@@ -327,14 +327,14 @@ footer address {
 
 #video iframe {
     border: none;
-    height: 720px;
-    width: 1080px;
+    margin-top: 2rem;
+ 
 }
 
 .card {
     background-color: rgba(0, 0, 0, 1.0);
     border: #6D980F solid 0.1rem;
-    width: 25rem;
+    width: 21rem;
     margin: 2rem auto;
     padding: 0rem;
 }
@@ -346,7 +346,7 @@ footer address {
 }
 
 .card-body .card-img-top {
-    width: 20rem;
+    width: 18rem;
 }
 
 .card-title {
@@ -408,7 +408,7 @@ footer address {
 #class-cards .card-body button {
     margin: 1rem 0rem;
     position: relative;
-    width: 20rem;
+    width: 15rem;
     background: #6d980f;
 }
 
@@ -419,7 +419,7 @@ footer address {
 }
 
 #nutrition-block {
-    margin: 2rem;
+    margin: auto;
 }
 
 #nutrition-block img {
@@ -432,12 +432,17 @@ footer address {
 }
 
 #nutrition-block p {
-    color: #049DD9;
-    font-weight: 400;
+    color:#049DD9;
+    font-weight: 500;
 }
 
-#nutrition-block button {
+#nutrition-block #nutrition-button {
     margin-bottom: 1rem;
+    background-color: #049DD9;
+}
+
+#nutrition-block #nutrition-button b {
+    color: #fff;
 }
 
 
