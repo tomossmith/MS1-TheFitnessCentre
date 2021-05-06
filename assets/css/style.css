@@ -30,7 +30,7 @@ p {
     color: #fff;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .btn {
@@ -52,27 +52,28 @@ p {
     text-align: right;
 }
 
-.navbar-nav .nav-item .nav-link{
+.navbar-nav .nav-item .nav-link {
     color: #fff;
     padding-right: 3rem;
 }
 
-.navbar-nav .nav-item .active{
+.navbar-nav .nav-item .active {
     color: red;
     padding-right: 3rem;
 }
 
 .navbar a :hover {
-  color: #B2E533
+    color: #B2E533
 }
 
-.navbar .active > a b {
-  border-bottom:#B2E533 solid 0.2rem;
+.navbar .active>a b {
+    border-bottom: #B2E533 solid 0.2rem;
 }
 
 #menu-btn {
     margin-right: 2rem;
     padding: 0.5rem 2rem;
+    background-color: #049DD9
 }
 
 .page-title {
@@ -85,7 +86,7 @@ p {
 
 .section-bg {
     background-image:
-        linear-gradient(90deg, rgba(0, 0, 0, 0.9) 10%, rgba(4, 156, 207, 0.9) 50%, rgba(0, 0, 0, 0.9) 90%),
+        linear-gradient( rgba(0, 0, 0, 0.9) 25%, rgba(4, 156, 207, 0.9) 50%, rgba(0, 0, 0, 0.9) 75%),
         /*radial-gradient(circle, rgba(4, 157, 217, 0.9) 0%, rgba(0, 0, 0, 0.9) 70%),*/
         url(/assets/images/BG-Texture.jpg);
     background-size: cover;
@@ -118,7 +119,7 @@ p {
     background: #049DD9;
     padding: 1rem 2rem;
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -140,23 +141,45 @@ p {
     padding: 0rem 2rem;
 }
 
-/* TRAINER SECTION */
+/* INSTRUCTOR SECTION */
 
 #instructor-section {
     padding-top: 2rem;
 }
 
-#instructor-section img {
-    width: 100%;
-    margin-top: 2rem;
+#instructor-section .instructor-bg {
+background-image:
+        linear-gradient( rgba(0, 0, 0, 0.9) 10%, rgba(67, 8, 99, 0.753) 50%, rgba(0, 0, 0, 0.9) 90%),
+        url(/assets/images/BG-Texture.jpg);
+    background-size: cover;
+    padding: 1rem 2rem;
 }
 
+#instructor-section .instructor-image {
+margin-top: 1rem;
+padding: 0.1vw;
+width: 100%;
+}
+
+#instructor-section .instructor-info h3 {
+    font-size: 1.5rem;
+}
+
+#instructor-section .instructor-info p {
+    margin: 0;
+   padding: 0.1rem;
+}
+
+.progress-block {
+    padding-top: 0.5rem;
+}
 .progress {
-    height: 1.5rem;
+    height: 2vh;
+    margin-bottom: 0.7rem;
 }
 
 .progress-bar {
-    background-color: #6D980F;
+    background-color: #049DD9;
     color: #fff;
     font-weight: 400;
     font-size: 0.8rem;
@@ -292,13 +315,15 @@ footer address {
 
 
 /* CLASSES PAGE */
-
+/*
 .classes-page {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%),
-        url(/assets/images/classes-bg.png);
-    background-size: cover;
-}
+        url(/assets/images/classes-bg.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 
 #video iframe {
     border: none;
@@ -307,7 +332,7 @@ footer address {
 }
 
 .card {
-    background-color: rgba(0, 0, 0, 0.0);
+    background-color: rgba(0, 0, 0, 1.0);
     border: #6D980F solid 0.1rem;
     width: 25rem;
     margin: 2rem auto;
@@ -387,41 +412,42 @@ footer address {
     background: #6d980f;
 }
 
-.nutrition-bg{
-      background-image: url(/assets/images/classes-nutrition.png);
-  background-repeat: none;
-  background-size: cover;
+.nutrition-bg {
+    background-image: url(/assets/images/classes-nutrition.png);
+    background-repeat: none;
+    background-size: cover;
 }
 
-#nutrition-block { 
-  margin: 2rem; 
+#nutrition-block {
+    margin: 2rem;
 }
 
-#nutrition-block img { 
-  width: 1rem;
+#nutrition-block img {
+    width: 1rem;
 }
 
-#nutrition-block h1 { 
-  color: #049DD9;
-  padding-top:0.5rem;
+#nutrition-block h1 {
+    color: #049DD9;
+    padding-top: 0.5rem;
 }
 
-#nutrition-block p { 
-  color: #049DD9;
-  font-weight: 400;
+#nutrition-block p {
+    color: #049DD9;
+    font-weight: 400;
 }
 
-#nutrition-block button { 
-  margin-bottom: 1rem;
+#nutrition-block button {
+    margin-bottom: 1rem;
 }
 
 
 
 /* MEMBERSHIP PAGE */
 .membership-page {
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%),
-        url(/assets/images/membership-bg.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%),
+        url(/assets/images/membership-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -456,7 +482,7 @@ footer address {
 #membership-button {
     width: 80%;
     padding: 2rem 0rem;
-    background-color:#049DD9;
+    background-color: #049DD9;
 }
 
 /* MODALS */
@@ -547,10 +573,6 @@ footer address {
 
 @media screen and (max-width:767px) {
 
-    .col {
-        padding-right: 0px;
-    }
-
     .show-pc-only {
         display: none;
     }
@@ -567,10 +589,10 @@ footer address {
     }
 
     .jumbotron .jumbo-block {
-        position: absolute;
-        top: 95%;
+        position: relative;
+        top: 80%;
         left: 50%;
-        width: 100%;
+        width: auto;
         background-color: rgba(0, 0, 255, 0);
     }
 
@@ -589,39 +611,7 @@ footer address {
     }
 
     /* MOBILE-TRAINER SECTION */
-    #instructor-section .badge-default {
-        padding: 0.5rem 1rem;
-        position: absolute;
-    }
 
-    #instructor-section .instructor-info {
-        padding-left: 0.5rem;
-        margin-bottom: 0.5rem;
-        font-size: 0.8rem;
-    }
-
-    .progress {
-        height: 0.8rem;
-        margin-bottom: 0.5rem;
-        margin-left: 0.5rem;
-    }
-
-    .progress-bar {
-        background-color: #6D980F;
-        color: #fff;
-        font-weight: 400;
-        font-size: 0.5rem;
-        letter-spacing: 0.1rem;
-        font-family: "Roboto", sans-serif;
-        text-align: start;
-        text-indent: 0.5em;
-    }
-
-    #instructor-section .instructor-button {
-        padding: 0.4rem 0.4rem;
-        position: relative;
-        margin-left: 0.5rem;
-    }
 
     /* MOBILE-TESTIMONIAL SECTION */
     #testimonial-section .badge-default {
@@ -644,11 +634,11 @@ footer address {
         width: 40%;
     }
 
-    #Aaron {
+    #aaron {
         width: 30%;
     }
 
-    #Amy {
+    #amy {
         width: 40%;
     }
 }
@@ -689,8 +679,3 @@ footer address {
         display: none;
     }
 }
-
-
-
-
-
