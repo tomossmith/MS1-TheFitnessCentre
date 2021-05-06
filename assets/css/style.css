@@ -198,7 +198,7 @@ width: 100%;
     padding-bottom: 2rem;
 }
 
-#Aaron {
+#aaron {
     width: 80%;
 }
 
@@ -207,7 +207,7 @@ width: 100%;
     margin-left: -4rem;
 }
 
-#Amy {
+#amy {
     width: 95%;
 }
 
@@ -254,9 +254,9 @@ footer {
 }
 
 .footer-banner {
-    background-image: url(/assets/images/footer-banner.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%),url(/assets/images/footer-banner.png);
     background-size: cover;
-    height: 15rem;
+    height: 30%;
 }
 
 .footer-banner a {
@@ -266,6 +266,7 @@ footer {
 .footer-banner h1 {
     font-weight: 400;
     padding-top: 1rem;
+    padding-left: 2rem;
 }
 
 footer h3 {
@@ -285,9 +286,11 @@ input {
 }
 
 footer .btn {
-    border-radius: 0;
-    margin-top: -0.3rem;
-    background-color: #049DD9;
+    border-radius: 1rem;
+    margin: -0.3rem 0rem 1rem 2rem;
+    background-color:#6d980f;
+    font-weight: 600;
+    
 }
 
 footer .contact-icons {
@@ -317,22 +320,10 @@ footer #newsletter p {
     margin: 0px;
 }
 
-
-/* CLASSES PAGE */
-/*
-.classes-page {
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%),
-        url(/assets/images/classes-bg.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
 #video iframe {
     border: none;
     margin-top: 2rem;
- 
+    width: 100%;
 }
 
 .card {
@@ -449,8 +440,6 @@ footer #newsletter p {
     color: #fff;
 }
 
-
-
 /* MEMBERSHIP PAGE */
 .membership-page {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%),
@@ -461,9 +450,10 @@ footer #newsletter p {
 }
 
 #pricing-table .card-img-top {
-    border-radius: 10rem;
+    border-radius: 12rem 5rem;
     border: #6D980F solid 0.2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: #fff 0.5rem 0.5rem 1rem;
 }
 
 #pricing-table .card-title {
@@ -619,9 +609,6 @@ footer #newsletter p {
         padding: 0rem 0rem;
     }
 
-    /* MOBILE-TRAINER SECTION */
-
-
     /* MOBILE-TESTIMONIAL SECTION */
     #testimonial-section .badge-default {
         position: relative;
@@ -640,16 +627,25 @@ footer #newsletter p {
     }
 
     #abs {
-        width: 40%;
+        width: 50%;
     }
 
-    #aaron {
-        width: 30%;
+    #aaron-mobile {
+        width: 150%;
     }
 
-    #amy {
-        width: 40%;
+    #amy-mobile {
+        width: 170%;
     }
+
+
+
+/* CLASSES PAGE - MOBILE */
+#video iframe {
+    height: 100%;
+    width: auto;
+}
+
 }
 
 

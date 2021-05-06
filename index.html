@@ -396,7 +396,7 @@
         <section id="testimonial-section">
             <div class="row show-pc-only">
                 <div class="col-md-4 text-center">
-                    <img id="Aaron" alt="Bootstrap Image Preview" src="/assets/images/testimonial1.png" /> <span
+                    <img id="aaron" alt="Bootstrap Image Preview" src="/assets/images/testimonial1.png" /> <span
                         class="badge badge-default"><strong>Aaron, 25</strong><br>
                         <p>Sales Consultant</p>
                     </span>
@@ -414,7 +414,7 @@
                     </h1>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img id="Amy" alt="Bootstrap Image Preview" src="/assets/images/testimonial3.png" /> <span
+                    <img id="amy" alt="Bootstrap Image Preview" src="/assets/images/testimonial3.png" /> <span
                         class="badge badge-default"><strong>Amy, 25</strong><br>
                         <p>Full Time Mum</p>
                     </span>
@@ -438,46 +438,51 @@
                     <h1 class="text-center uppercase">Real People <br> Real Results</h1>
                 </div>
 
-                <div class="row">
-                    <div class="container">
-                        <img id="Aaron" class="textwrap-r" alt="Bootstrap Image Preview"
-                            src="/assets/images/testimonial1.png">
-                        <p><i class="fas fa-quote-left quote-icons"></i>&nbsp I was finding it difficult to find the
-                            time to go to the gym as my working hours are long. Being able to
-                            have access to the gym at any time I want really changed my life. &nbsp<i
-                                class="fas fa-quote-right quote-icons"></i></p>
-                        <p><strong>Aaron, 25</strong><br>
-                            Sales Consultant</p>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2 img-responsive"><img id="aaron-mobile"  src="/assets/images/testimonial1.png" alt="man showing abs"></div>
+                        <div class="col-10 text-wrap">
+                            <p><i class="fas fa-quote-left quote-icons"></i>&nbsp I was finding it difficult to find the
+                                time to go to the gym as my working hours are long. Being able to
+                                have access to the gym at any time I want really changed my life. &nbsp<i
+                                    class="fas fa-quote-right quote-icons"></i></p>
+                            <p><strong>Aaron, 25</strong><br>
+                                Sales Consultant</p>
+                                <br>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <br>
                 </div>
 
-                <div class="row">
-                    <div class="container">
-                        <img id="Amy" class="textwrap-l" alt="Bootstrap Image Preview"
-                            src="/assets/images/testimonial3.png">
-                        <p><i class="fas fa-quote-left quote-icons"></i>&nbsp I started training with Joseph about seven
-                            months ago after having my first child. I
-                            didn't think my body could ever be the same, but Joseph helped develop a training plan that
-                            fit my lifestyle and
-                            the results are amazing! &nbsp<i class="fas fa-quote-right quote-icons"></i></p>
-                        <p><strong>Amy, 23</strong><br>
-                            Full Time Mum</p>
-                    </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2 img-responsive"><img id="amy-mobile"  src="/assets/images/testimonial3.png" alt="woman with hoop"></div>
+                            <div class="col-10">
+                                <p><i class="fas fa-quote-left quote-icons"></i>&nbsp I started training with Joseph about
+                                    seven
+                                    months ago after having my first child. I
+                                    didn't think my body could ever be the same, but Joseph helped develop a training plan
+                                    that
+                                    fit my lifestyle and
+                                    the results are amazing! &nbsp<i class="fas fa-quote-right quote-icons"></i></p>
+                                <p><strong>Amy, 23</strong><br>
+                                    Full Time Mum</p>
+                            </div>
+                         </div>
+                     </div>
                 </div>
-            </div>
         </section>
     </div>
 
     <footer>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row show-pc-only">
+                <div class="col-12">
                 <div class="footer-banner uppercase">
                     <h1>Why not sign up to our<br>no obligation unrestricted access<br>30 day free pass</h1>
                     <a class="btn btn-primary uppercase" id="footer-button" data-toggle="modal"
                         data-target="#modal-signup">SIGN UP</a>
+                </div>
                 </div>
 
             </div>
@@ -519,10 +524,11 @@
                     <form>
                         <div>
                             <label for="exampleInputEmail1"></label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
-                        </form>
+                    </form>
                 </div>
             </div>
         </div>
