@@ -143,7 +143,7 @@ p {
 /* INSTRUCTOR SECTION */
 
 #instructor-section {
-    padding-top: 2rem;
+    padding: 5rem 0rem;
 }
 
 #instructor-section .instructor-bg {
@@ -155,7 +155,7 @@ background-image:
 }
 
 #instructor-section .instructor-image {
-margin-top: 1rem;
+margin: auto;
 padding: 0.1vw;
 width: 100%;
 }
@@ -311,6 +311,10 @@ footer .social-icons {
 footer address {
     font-size: 0.8rem;
     color: #777676;
+}
+
+footer #newsletter p {
+    margin: 0px;
 }
 
 

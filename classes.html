@@ -383,22 +383,20 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="footer-banner uppercase">
-                    <h1>Why not sign up to our<br>no obligation unrestricted access<br>30 day free pass
-                    </h1>
+                    <h1>Why not sign up to our<br>no obligation unrestricted access<br>30 day free pass</h1>
                     <a class="btn btn-primary uppercase" id="footer-button" data-toggle="modal"
-                        data-target="/index.html#membership-modal">SIGN UP</a>
+                        data-target="#modal-signup">SIGN UP</a>
                 </div>
 
             </div>
 
             <div class="row text-center">
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <h3 class="text-center uppercase">
                         Contact Us
                     </h3>
                     <address class="contact-text text-center">
-                        <p><i class="fas fa-map-pin contact-icons"></i><strong>The Fitness
-                                Centre</strong>&nbsp
+                        <p><i class="fas fa-map-pin contact-icons"></i><strong>The Fitness Centre</strong>&nbsp
                             Elmsford,
                             New
                             York,
@@ -408,7 +406,7 @@
                     </address>
                 </div>
 
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <h3 class="text-center uppercase">
                         Connect With Us
                     </h3>
@@ -422,19 +420,17 @@
                     </div>
                 </div>
 
-                <div class="col-4">
+                <div id="newsletter" class="col-lg-4 col-md-12 col-sm-12">
                     <h3 class="text-center uppercase">
                         Subscribe to the newsletter
                     </h3>
-                    <p class="text-center">
-                        Stay up to date with the latest from us
-                    </p>
-                    <form role="form">
-                        <div class="form-group text-center">
-                            <label for="email"></label>
-                            <input type="email" placeholder="Email Address" name="email">
-                            <button type="submit" class="btn btn-primary">SIGN UP</button>
-                    </form>
+                    <form>
+                        <div>
+                            <label for="exampleInputEmail1"></label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                        </form>
                 </div>
             </div>
         </div>
@@ -446,13 +442,12 @@
     <div id="contact-modal" class="modal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header contact-image">
                     <h1 class="text-center uppercase">Contact Us</h1>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p class="hint-text text-center">We'd love to hear from you, please message us with
-                        any queries or
+                    <p class="hint-text text-center">We'd love to hear from you, please message us with any queries or
                         comments you may have.</p>
                     <div class="modal-form">
                         <form action="https://formdump.codeinstitute.net/" method="post" taget="_blank">
@@ -473,8 +468,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary uppercase" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i>
-                            Send
+                        <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Send
                             Message</button>
                     </div>
                 </div>
@@ -545,7 +539,7 @@
                             </div>
 
                             <div class="form-item">
-                                <label class="rafor=" zip">Membership Type:<span>*</span></label>#
+                                <label class="rafor=zip">Membership Type:<span>*</span></label>#
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-check">
@@ -583,8 +577,7 @@
                             </div>
                             <br>
                             <div class="form-item">
-                                <label class="rafor=" zip">Preferred Method Of
-                                    Contact:<span>*</span></label>#
+                                <label class="rafor=" zip>Preferred Method Of Contact:<span>*</span></label>#
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-check">
@@ -625,14 +618,13 @@
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary uppercase"
                                     data-dismiss="modal">Close</button>
-                                <button type="submit" class="btn btn-primary">Sign Up</button>
+                                <button type="submit" class="btn btn-primary membership-page-btn">Sign Up</button>
                             </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 
 </body>
 

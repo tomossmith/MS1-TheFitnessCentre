@@ -182,55 +182,60 @@
         <br>
 
         <footer>
-            <div class="container-fluid">
-                <div class="row text-center">
-                    <div class="col-4">
-                        <h3 class="text-center uppercase">
-                            Contact Us
-                        </h3>
-                        <address class="contact-text text-center">
-                            <p><i class="fas fa-map-pin contact-icons"></i><strong>The Fitness Centre</strong>&nbsp
-                                Elmsford,
-                                New
-                                York,
-                                10523<br />
-                                <i class="fas fa-phone contact-icons"></i> 845-746-6332<br>
-                                <i class="fas fa-at contact-icons"></i> getfit@thefitnesscentre.com</p>
-                        </address>
-                    </div>
-
-                    <div class="col-4">
-                        <h3 class="text-center uppercase">
-                            Connect With Us
-                        </h3>
-                        <div class="text-center social-icons">
-                            <i class="fab fa-facebook"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-whatsapp"></i>
-                            <i class="fab fa-youtube"></i>
-                            <i class="fab fa-pinterest"></i>
-                            <i class="fab fa-google-plus-g"></i>
-                        </div>
-                    </div>
-
-                    <div class="col-4">
-                        <h3 class="text-center uppercase">
-                            Subscribe to the newsletter
-                        </h3>
-                        <p class="text-center">
-                            Stay up to date with the latest from us
-                        </p>
-                        <form role="form">
-                            <div class="form-group text-center">
-                                <label for="email"></label>
-                                <input type="email" placeholder="Email Address" name="email">
-                                <button type="submit" class="btn btn-primary">SIGN UP</button>
-                        </form>
-                    </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="footer-banner uppercase">
+                    <h1>Why not sign up to our<br>no obligation unrestricted access<br>30 day free pass</h1>
+                    <a class="btn btn-primary uppercase" id="footer-button" data-toggle="modal"
+                        data-target="#modal-signup">SIGN UP</a>
                 </div>
+
             </div>
 
-    </div>
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <h3 class="text-center uppercase">
+                        Contact Us
+                    </h3>
+                    <address class="contact-text text-center">
+                        <p><i class="fas fa-map-pin contact-icons"></i><strong>The Fitness Centre</strong>&nbsp
+                            Elmsford,
+                            New
+                            York,
+                            10523<br />
+                            <i class="fas fa-phone contact-icons"></i> 845-746-6332<br>
+                            <i class="fas fa-at contact-icons"></i> getfit@thefitnesscentre.com</p>
+                    </address>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <h3 class="text-center uppercase">
+                        Connect With Us
+                    </h3>
+                    <div class="text-center social-icons">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-whatsapp"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-pinterest"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                </div>
+
+                <div id="newsletter" class="col-lg-4 col-md-12 col-sm-12">
+                    <h3 class="text-center uppercase">
+                        Subscribe to the newsletter
+                    </h3>
+                    <form>
+                        <div>
+                            <label for="exampleInputEmail1"></label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                        </form>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!--MODALS-->
@@ -239,7 +244,7 @@
     <div id="contact-modal" class="modal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header contact-image">
                     <h1 class="text-center uppercase">Contact Us</h1>
                     </button>
                 </div>
@@ -336,7 +341,7 @@
                             </div>
 
                             <div class="form-item">
-                                <label class="rafor=" zip">Membership Type:<span>*</span></label>#
+                                <label class="rafor=zip">Membership Type:<span>*</span></label>#
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-check">
@@ -374,7 +379,7 @@
                             </div>
                             <br>
                             <div class="form-item">
-                                <label class="rafor=" zip">Preferred Method Of Contact:<span>*</span></label>#
+                                <label class="rafor=" zip>Preferred Method Of Contact:<span>*</span></label>#
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-check">
@@ -415,7 +420,7 @@
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary uppercase"
                                     data-dismiss="modal">Close</button>
-                                <button type="submit" class="btn btn-primary">Sign Up</button>
+                                <button type="submit" class="btn btn-primary membership-page-btn">Sign Up</button>
                             </div>
                     </div>
                 </div>
