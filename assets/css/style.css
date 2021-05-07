@@ -93,12 +93,12 @@ p {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.9) 25%, rgba(4, 156, 207, 0.9) 50%, rgba(0, 0, 0, 0.9) 75%),
         /*radial-gradient(circle, rgba(4, 157, 217, 0.9) 0%, rgba(0, 0, 0, 0.9) 70%),*/
-        url(./images/BG-Texture.jpg);
+        url(../images/BG-Texture.jpg);
     background-size: cover;
 }
 
 .jumbotron {
-    background-image: url("./images/hero-image.png");
+    background-image: url("../images/hero-image.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -155,7 +155,7 @@ p {
 #instructor-section .instructor-bg {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.9) 10%, rgba(67, 8, 99, 0.753) 50%, rgba(0, 0, 0, 0.9) 90%),
-        url(./images/BG-Texture.jpg);
+        url(../images/BG-Texture.jpg);
     background-size: cover;
     padding: 1rem 2rem;
 }
@@ -261,7 +261,7 @@ footer {
 }
 
 .footer-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url(./images/footer-banner.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url(../images/footer-banner.png);
     background-size: cover;
     height: 100%;
 }
@@ -417,7 +417,7 @@ footer #newsletter p {
 }
 
 .nutrition-bg {
-    background-image: url(./images/classes-nutrition.png);
+    background-image: url(../images/classes-nutrition.png);
     background-repeat: none;
     background-size: cover;
 }
@@ -452,7 +452,7 @@ footer #newsletter p {
 /* MEMBERSHIP PAGE */
 .membership-page {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%),
-        url(./images/membership-bg.png);
+        url(../images/membership-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -514,7 +514,7 @@ footer #newsletter p {
 #contact-modal .modal-header {
     position: relative;
     height: 10rem;
-    background-image: url("./images/contact-modal-header.png");
+    background-image: url("../images/contact-modal-header.png");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -525,7 +525,7 @@ footer #newsletter p {
     position: relative;
     height: 10rem;
     ;
-    background-image: url("./images/membership-modal-header.png");
+    background-image: url("../images/membership-modal-header.png");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -607,7 +607,7 @@ footer #newsletter p {
 
     #hero-section .jumbotron {
         background-image:
-            url('./images/hero-image-mobile.png');
+            url('../images/hero-image-mobile.png');
         background-size: 110%;
         background-position: top;
         background-position-x: center;
@@ -684,7 +684,7 @@ footer #newsletter p {
     /* TABLET-HERO SECTION */
 
     .jumbotron {
-        background-image: url("./images/hero-image.png");
+        background-image: url("../images/hero-image.png");
         height: 80vh;
         margin-top: 4rem;
     }
