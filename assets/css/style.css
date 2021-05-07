@@ -4,6 +4,7 @@
 
 body {
     background-color: #000;
+    margin-top: 60px;
 }
 
 h1 {
@@ -83,6 +84,8 @@ p {
 
 .page-title {
     font-size: 2rem;
+    padding-top: 50px;
+    margin:auto;
 }
 
 .card-body {
@@ -92,8 +95,7 @@ p {
 .section-bg {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.9) 25%, rgba(4, 156, 207, 0.9) 50%, rgba(0, 0, 0, 0.9) 75%),
-        /*radial-gradient(circle, rgba(4, 157, 217, 0.9) 0%, rgba(0, 0, 0, 0.9) 70%),*/
-        url(../images/BG-Texture.jpg);
+        url(../images/bg-Texture.jpg);
     background-size: cover;
 }
 
@@ -155,7 +157,7 @@ p {
 #instructor-section .instructor-bg {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.9) 10%, rgba(67, 8, 99, 0.753) 50%, rgba(0, 0, 0, 0.9) 90%),
-        url(../images/BG-Texture.jpg);
+        url(../images/bg-Texture.jpg);
     background-size: cover;
     padding: 1rem 2rem;
 }
@@ -180,7 +182,7 @@ p {
 }
 
 .progress {
-    height: 2vh;
+    height: 5vh;
     margin-bottom: 0.7rem;
 }
 
@@ -244,7 +246,7 @@ p {
 
 #testimonial-section p {
     padding: 0rem 1rem;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     font-weight: 300;
 }
 
@@ -338,6 +340,12 @@ footer .social-icons {
     border: none;
     margin-top: 2rem;
     width: 100%;
+}
+
+/* CLASSES-PAGE */
+
+.classes-intro {
+    letter-spacing: 0.1rem;
 }
 
 .card {
@@ -449,8 +457,13 @@ footer .social-icons {
     background-color: #049DD9;
 }
 
+#nutrition-block #nutrition-button a {
+    text-decoration: none;
+}
+
 #nutrition-block #nutrition-button b {
     color: #fff;
+
 }
 
 /* MEMBERSHIP PAGE */
@@ -649,6 +662,7 @@ footer .social-icons {
     #testimonial-section p {
         font-weight: 300;
         margin-bottom: 0;
+        font-size: 1rem;
         color: #fff;
     }
 
@@ -698,11 +712,28 @@ footer .social-icons {
     .carousel-inner {
         height: 50vh;
         width: 80vh;
+        margin:auto;
     }
 
     .carousel-inner img {
         height: 50vh;
         width: 80vh;
+        margin:auto;
+    }
+
+    /* TABLET-TESTIMONIAL SECTION */
+
+        #testimonial-section .badge-default {
+        position: relative;
+        top: -2.5rem;
+        padding: 0.2rem 0.2rem;
+    }
+
+    #testimonial-section p {
+        font-weight: 300;
+        margin-bottom: 0;
+        font-size: 1.2rem;
+        color: #fff;
     }
 
 }
