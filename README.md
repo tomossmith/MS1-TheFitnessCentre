@@ -1,4 +1,4 @@
-<center><img src="../images/Logo.png" alt="The Fitness Centre Logo"></center>
+<center><img src="./images/Logo.png" alt="The Fitness Centre Logo"></center>
 
 ----
 
