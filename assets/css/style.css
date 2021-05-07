@@ -432,6 +432,7 @@ footer .social-icons {
     background-image: url(../images/classes-nutrition.png);
     background-repeat: none;
     background-size: cover;
+    height: 100%;
 }
 
 #nutrition-block {
