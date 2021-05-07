@@ -93,6 +93,7 @@ p {
 }
 
 .section-bg {
+    /* ### Credit: Webdevetc.com ### */
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.9) 25%, rgba(4, 156, 207, 0.9) 50%, rgba(0, 0, 0, 0.9) 75%),
         url(../images/bg-Texture.jpg);
@@ -263,6 +264,7 @@ footer {
 }
 
 .footer-banner {
+    /* ### Credit: Webdevetc.com ### */
     background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url(../images/footer-banner.png);
     background-size: cover;
     height: 100%;
@@ -437,6 +439,7 @@ footer .social-icons {
 
 #nutrition-block {
     margin: auto;
+    margin-bottom: 2rem;
 }
 
 #nutrition-block img {
@@ -469,6 +472,7 @@ footer .social-icons {
 
 /* MEMBERSHIP PAGE */
 .membership-page {
+    /* ### Credit: Webdevetc.com ### */
     background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%),
         url(../images/membership-bg.png);
     background-position: center;

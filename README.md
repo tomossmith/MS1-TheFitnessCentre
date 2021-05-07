@@ -73,15 +73,12 @@ A responsive website designed to promote energy, fun and excellent facilities wi
 
 Credit:
 
-Customer Review Template for Bootstrap :https://www.bootdey.com/snippets/view/Customer-Reviews#html
+* Customer Reviews
+    I needed a nice looking section where the customer reviews could be placed and I came across one on the [bootdey website](https://www.bootdey.com/snippets/view/Customer-Reviews#html)
+    I've used the code on the membership page, and its main purpose is to help those who are unsure of joining to go-ahead and sign up.
 
-Gradient on image: 
-https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/
 
-Hero Image:
-https://www.w3schools.com/howto/howto_css_hero_image.asp
-
-Newsletter Signup Code:
-https://bootsnipp.com/snippets/AlM7P
-
-Text Wrapping: https://www.homeandlearn.co.uk/WD/wds4p6.html
+* Gradient On Images
+    I had placed some images that had text on top of them and I thought the contrast between the text and the image was very poor and difficult to read.
+    To improve this, I was looking to change the opacity of the image or add a layer of transparent black above the image to darken it. 
+    I found a soltion to my problem by adding a gradient overlay to a background image taken from the following [website](https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/)
