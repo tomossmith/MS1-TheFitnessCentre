@@ -297,8 +297,11 @@ footer .btn {
     margin: -0.3rem 0rem 1rem 2rem;
     background-color: #6d980f;
     font-weight: 600;
-
+    color: #fff;
 }
+
+
+
 
 footer .contact-icons {
     color: #049DD9;

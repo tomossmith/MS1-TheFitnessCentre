@@ -14,7 +14,7 @@
     <!--Fontawesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.css">
     <!--CSS-->
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
@@ -37,7 +37,7 @@
             <div class="row">
                 <div class="navbar navbar-expand-lg navbar-dark static-top">
                     <a class="navbar-brand" href="/index.html">
-                        <img src="./images/logo.png" alt="The Fitness Centre Logo">
+                        <img src="../images/logo.png" alt="The Fitness Centre Logo">
                     </a>
                     <div class="text-right">
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -102,15 +102,15 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-interval=300>
-                            <img src="/../images/carousel-locker-room.png" class="w-100"
+                            <img src="../images/carousel-locker-room.png" class="w-100"
                                 alt="Lady in gym locker room">
                         </div>
                         <div class="carousel-item" data-interval="300">
-                            <img src=".../images/carousel-treadmills.png" class="w-100"
+                            <img src="../images/carousel-treadmills.png" class="w-100"
                                 alt="selection of treadmillys in gym">
                         </div>
                         <div class="carousel-item" data-interval="300">
-                            <img src="..../images/carousel-weight-room.png" class="w-100"
+                            <img src="../images/carousel-weight-room.png" class="w-100"
                                 alt="man lifting weights in weight room">
                         </div>
                     </div>
@@ -486,7 +486,7 @@
                 <div class="col-12">
                     <div class="footer-banner uppercase">
                         <h1>Why not sign up to our<br>no obligation unrestricted access<br>30 day free pass</h1>
-                    <a class="btn btn-primary uppercase" data-toggle="modal" data-target="#membership-modal" id="footer-button">SIGN UP</a>
+                    <a class="btn btn-primaryuppercase" data-toggle="modal" data-target="#membership-modal" id="footer-button">SIGN UP</a>
                     </div>
                 </div>
 
@@ -616,6 +616,34 @@
                                 <button type="button" class="btn btn-secondary uppercase"
                                     data-dismiss="modal">Close</button>
                                 <button type="submit" class="btn btn-primary membership-page-btn">Sign Up</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--NEWSLETTER-->
+    <div id="newsletter-modal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="text-center">Subscribe</h1>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-form">
+                        <form action="https://formdump.codeinstitute.net/" method="post" taget="_blank">
+                            <div class="form-item">
+                                <label for="inputEmail">Email Address:<span>*</span></label>
+                                <input type="email" class="form-control" id="inputEmail" required>
+                            </div>
+                            <br>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary uppercase"
+                                    data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary membership-page-btn">Subscribe</button>
                             </div>
                         </form>
                     </div>
