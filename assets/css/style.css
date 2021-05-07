@@ -44,6 +44,12 @@ p {
 
 .navbar {
     background-color: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    z-index: 10;
+    border-bottom: #6D980F solid 0.1rem;
 }
 
 .nav-item {
@@ -85,7 +91,7 @@ p {
 
 .section-bg {
     background-image:
-        linear-gradient( rgba(0, 0, 0, 0.9) 25%, rgba(4, 156, 207, 0.9) 50%, rgba(0, 0, 0, 0.9) 75%),
+        linear-gradient(rgba(0, 0, 0, 0.9) 25%, rgba(4, 156, 207, 0.9) 50%, rgba(0, 0, 0, 0.9) 75%),
         /*radial-gradient(circle, rgba(4, 157, 217, 0.9) 0%, rgba(0, 0, 0, 0.9) 70%),*/
         url(/assets/images/BG-Texture.jpg);
     background-size: cover;
@@ -147,17 +153,17 @@ p {
 }
 
 #instructor-section .instructor-bg {
-background-image:
-        linear-gradient( rgba(0, 0, 0, 0.9) 10%, rgba(67, 8, 99, 0.753) 50%, rgba(0, 0, 0, 0.9) 90%),
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.9) 10%, rgba(67, 8, 99, 0.753) 50%, rgba(0, 0, 0, 0.9) 90%),
         url(/assets/images/BG-Texture.jpg);
     background-size: cover;
     padding: 1rem 2rem;
 }
 
 #instructor-section .instructor-image {
-margin: auto;
-padding: 0.1vw;
-width: 100%;
+    margin: auto;
+    padding: 0.1vw;
+    width: 100%;
 }
 
 #instructor-section .instructor-info h3 {
@@ -166,12 +172,13 @@ width: 100%;
 
 #instructor-section .instructor-info p {
     margin: 0;
-   padding: 0.1rem;
+    padding: 0.1rem;
 }
 
 .progress-block {
     padding-top: 0.5rem;
 }
+
 .progress {
     height: 2vh;
     margin-bottom: 0.7rem;
@@ -254,9 +261,9 @@ footer {
 }
 
 .footer-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%),url(/assets/images/footer-banner.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url(/assets/images/footer-banner.png);
     background-size: cover;
-    height: 30%;
+    height: 100%;
 }
 
 .footer-banner a {
@@ -288,9 +295,9 @@ input {
 footer .btn {
     border-radius: 1rem;
     margin: -0.3rem 0rem 1rem 2rem;
-    background-color:#6d980f;
+    background-color: #6d980f;
     font-weight: 600;
-    
+
 }
 
 footer .contact-icons {
@@ -337,7 +344,6 @@ footer #newsletter p {
 .card-body {
     background-color: none;
     border-radius: 5rem;
-    height: 57rem;
 }
 
 .card-body .card-img-top {
@@ -427,7 +433,7 @@ footer #newsletter p {
 }
 
 #nutrition-block p {
-    color:#049DD9;
+    color: #049DD9;
     font-weight: 500;
 }
 
@@ -498,7 +504,7 @@ footer #newsletter p {
 }
 
 #reviews h5 {
-    color:#6D980F;
+    color: #6D980F;
 }
 
 /* MODALS */
@@ -657,11 +663,11 @@ footer #newsletter p {
 
 
 
-/* CLASSES PAGE - MOBILE */
-#video iframe {
-    height: 100%;
-    width: auto;
-}
+    /* CLASSES PAGE - MOBILE */
+    #video iframe {
+        height: 100%;
+        width: auto;
+    }
 
 }
 
@@ -706,61 +712,88 @@ footer #newsletter p {
 .align-center {
     text-align: center;
 }
+
 .hash-list {
     display: block;
     padding: 0;
     margin: 0 auto;
 }
 
-@media (min-width: 768px){
-    .hash-list.cols-3 > li:nth-last-child(-n+3) {
+@media (min-width: 768px) {
+    .hash-list.cols-3>li:nth-last-child(-n+3) {
         border-bottom: none;
     }
 }
-@media (min-width: 768px){
-    .hash-list.cols-3 > li {
+
+@media (min-width: 768px) {
+    .hash-list.cols-3>li {
         width: 33.3333%;
     }
 }
-.hash-list > li {
+
+.hash-list>li {
     display: block;
     float: left;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-.pad-30, .pad-30-all > * {
+
+.pad-30,
+.pad-30-all>* {
     padding: 30px;
 }
+
 img {
     border: 0;
 }
-.mgb-20, .mgb-20-all > * {
+
+.mgb-20,
+.mgb-20-all>* {
     margin-bottom: 20px;
 }
-.wpx-100, .wpx-100-after:after {
+
+.wpx-100,
+.wpx-100-after:after {
     width: 100px;
 }
-.img-round, .img-rel-round {
+
+.img-round,
+.img-rel-round {
     border-radius: 50%;
 }
-.padb-30, .padb-30-all > * {
+
+.padb-30,
+.padb-30-all>* {
     padding-bottom: 30px;
 }
 
-.mgb-40, .mgb-40-all > * {
+.mgb-40,
+.mgb-40-all>* {
     margin-bottom: 40px;
 }
+
 .align-center {
     text-align: center;
 }
+
 [class*="line-b"] {
     position: relative;
     padding-bottom: 20px;
     border-color: #E6AF2A;
 }
-.fg-text-d, .fg-hov-text-d:hover, .fg-active-text-d.active {
+
+.fg-text-d,
+.fg-hov-text-d:hover,
+.fg-active-text-d.active {
     color: #222;
 }
+
 .font-cond-b {
     font-weight: 700 !important;
 }
+
+/* UTILITY CLASSES */
+@media screen and (min-width:767px) {
+    .h-20 {
+        height: 20%;
+    }

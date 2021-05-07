@@ -60,7 +60,9 @@ A responsive website designed to promote energy, fun and excellent facilities wi
     #### Index
     Hero Image: Photo by Binyamin Mellish from Pexels [Link](https://www.pexels.com/photo/man-in-blue-shorts-carrying-brown-exercise-equipments-116079/) 
 ----
-
+## Features
+    * Created using HTML5, CSS, Bootstrap, Fontawesome and some Javascript.
+    * Automated or manually controlled carousel to promote the gym facilities.
 # Technologies Used
 
 ## Frameworks, Programmes and Libraries:
