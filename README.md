@@ -53,25 +53,25 @@ A responsive website designed to promote energy, fun and excellent facilities wi
     <details>
     <summary>Mockup Layout for the Trainer page.</summary>
     <br>
-    <center><img src="./assets/images/mockup-trainers" alt="The Fitness Centre - Mockup Trainers Page"></center>
+    <center><img src="./assets/images/mockup-trainers.png" alt="The Fitness Centre - Mockup Trainers Page"></center>
     </details>
 
     <details>
     <summary>Mockup Layout for the Classes page.</summary>
     <br>
-    <center><img src="./assets/images/mockup-classes" alt="The Fitness Centre - Mockup Classes Page"></center>
+    <center><img src="./assets/images/mockup-classes.png" alt="The Fitness Centre - Mockup Classes Page"></center>
     </details>
 
     <details>
     <summary>Mockup Layout for the Membership page.</summary>
     <br>
-    <center><img src="./assets/images/mockup-membership" alt="The Fitness Centre - Mockup Membership Page"></center>
+    <center><img src="./assets/images/mockup-membership.png" alt="The Fitness Centre - Mockup Membership Page"></center>
     </details>
 
     <details>
     <summary>Mockup Layout for the Contact page.</summary>
     <br>
-    <center><img src="./assets/images/mockup-contact" alt="The Fitness Centre - Mockup Contact Page"></center>
+    <center><img src="./assets/images/mockup-contact.png" alt="The Fitness Centre - Mockup Contact Page"></center>
     </details>
 
 * ### Colour scheme   
