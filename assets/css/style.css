@@ -320,13 +320,6 @@ footer .contact-text {
     color: #777676;
 }
 
-footer .social-icons {
-    color: #049DD9;
-    padding: 0.5rem;
-    letter-spacing: 0.3rem;
-    font-size: 1.2rem;
-}
-
 footer address {
     font-size: 0.8rem;
     color: #777676;
@@ -334,6 +327,11 @@ footer address {
 
 footer #newsletter p {
     margin: 0px;
+}
+
+footer .social-icons {
+    text-decoration: none;
+    padding: 0.5rem;
 }
 
 #video iframe {
