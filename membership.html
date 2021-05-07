@@ -235,148 +235,191 @@
 
 
 
-        <footer>
-            <div class="container-fluid">
-                <div class="row show-pc-only">
+    <footer>
+        <div class="container-fluid">
+            <div class="row show-pc-only">
+                <div class="col-sm-12">
                     <div class="footer-banner uppercase">
                         <h1>Why not sign up to our<br>no obligation unrestricted access<br>30 day free pass</h1>
-                    <a class="btn btn-primary uppercase" data-toggle="modal" data-target="#membership-modal" id="footer-button">SIGN UP</a>
+                    <a class="btn btn-primaryuppercase" data-toggle="modal" data-target="#membership-modal" id="footer-button">SIGN UP</a>
                     </div>
-
                 </div>
 
-                <div class="row text-center">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <h3 class="text-center uppercase">
-                            Contact Us
-                        </h3>
-                        <address class="contact-text text-center">
-                            <p><i class="fas fa-map-pin contact-icons"></i><strong>The Fitness Centre</strong>&nbsp
-                                Elmsford,
-                                New
-                                York,
-                                10523<br />
-                                <i class="fas fa-phone contact-icons"></i> 845-746-6332<br>
-                                <i class="fas fa-at contact-icons"></i> getfit@thefitnesscentre.com</p>
-                        </address>
-                    </div>
+            </div>
 
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <h3 class="text-center uppercase">
-                            Connect With Us
-                        </h3>
-                        <div class="text-center social-icons">
-                            <i class="fab fa-facebook"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-whatsapp"></i>
-                            <i class="fab fa-youtube"></i>
-                            <i class="fab fa-pinterest"></i>
-                            <i class="fab fa-google-plus-g"></i>
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-12">
+                    <h3 class="text-center uppercase">
+                        Contact Us
+                    </h3>
+                    <address class="contact-text text-center">
+                        <p><i class="fas fa-map-pin contact-icons"></i><strong>The Fitness Centre</strong>&nbsp 
+                            Liberty Way,
+                            New
+                            York,
+                            10004 &nbsp <a href="" data-toggle="modal" data-target="#map-modal">FIND US</a><br />
+                            <i class="fas fa-phone contact-icons"></i> 845-746-6332<br>
+                            <i class="fas fa-at contact-icons"></i> getfit@thefitnesscentre.com</p>
+                    </address>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <h3 class="text-center uppercase">
+                        Opening Hours
+                    </h3>
+                    <div class="text-center contact-text">
+                        <p><i class="fas fa-stopwatch opening-hours-icon"></i><strong class="uppercase">We are open 24/7</strong><br>Use your membership keyfob to enter at anytime!             
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <h3 class="text-center uppercase">
+                        Connect With Us
+                    </h3>
+                    <div class="text-center social-icons">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-whatsapp"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-pinterest"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </footer>
+
+    <!--MODALS-->
+
+    <!--CONTACT-->
+    <div id="contact-modal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header contact-image">
+                    <h1 class="text-center uppercase">Contact Us</h1>
+                    </button>
+                </div>
+                <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
+                    <div class="modal-body">
+                        <p class="hint-text text-center">We'd love to hear from you, please message us with any queries
+                            or
+                            comments you may have.</p>
+                        <div class="modal-form">
+
+                            <div class="form-item">
+                                <label for="inputName">Name<span>*</span></label>
+                                <input type="text" class="form-control" id="inputName" required>
+                            </div>
+                            <div class="form-item">
+                                <label for="inputEmail">Email Address<span>*</span></label>
+                                <input type="email" class="form-control" id="inputEmail" required>
+                            </div>
+                            <div class="form-item">
+                                <label for="inputMessage">Message<span>*</span></label>
+                                <textarea class="form-control" id="inputMessage" rows="5" required></textarea>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary uppercase"
+                                data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Send
+                                Message</button>
                         </div>
                     </div>
-
-                    <div id="newsletter" class="col-lg-4 col-md-12 col-sm-12">
-                        <h3 class="text-center uppercase">
-                            Subscribe to the newsletter
-                        </h3>
-                        <form>
-                            <div>
-                                <label for="exampleInputEmail1"></label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Enter email">
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--MEMBERSHIP-->
+    <div id="membership-modal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="text-center">Membership Form</h1>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-form">
+                        <form action="https://formdump.codeinstitute.net/" method="post" taget="_blank">
+                            <div class="form-item">
+                                <label for="inputFirstName">Name:<span>*</span></label>
+                                <input type="text" class="form-control" id="inputName" required>
+                            </div>
+                            <div class="form-item">
+                                <label for="inputEmail">Email Address:<span>*</span></label>
+                                <input type="email" class="form-control" id="inputEmail" required>
+                            </div>
+                            <div class="form-item">
+                                <label class="select-label" for="membership-type">Membership
+                                    Type:<span>*</span></label><br>
+                                <select class="custom-select form-control">
+                                    <option selected>Choose Membership </option>
+                                    <option value="1">Basic</option>
+                                    <option value="2">Premium</option>
+                                    <option value="2">Ultimate</option>
+                                    <option value="2">30 Day Free Pass</option>
+                                </select>
+                            </div>
+                            <br>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary uppercase"
+                                    data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary membership-page-btn">Sign Up</button>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-        </footer>
-
-        <!--MODALS-->
-
-        <!--CONTACT-->
-        <div id="contact-modal" class="modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header contact-image">
-                        <h1 class="text-center uppercase">Contact Us</h1>
-                        </button>
-                    </div>
-                    <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
-                        <div class="modal-body">
-                            <p class="hint-text text-center">We'd love to hear from you, please message us with any
-                                queries
-                                or
-                                comments you may have.</p>
-                            <div class="modal-form">
-
-                                <div class="form-item">
-                                    <label for="inputName">Name<span>*</span></label>
-                                    <input type="text" class="form-control" id="inputName" required>
-                                </div>
-                                <div class="form-item">
-                                    <label for="inputEmail">Email Address<span>*</span></label>
-                                    <input type="email" class="form-control" id="inputEmail" required>
-                                </div>
-                                <div class="form-item">
-                                    <label for="inputMessage">Message<span>*</span></label>
-                                    <textarea class="form-control" id="inputMessage" rows="5" required></textarea>
-                                </div>
-
+        </div>
+    </div>
+    <!--NEWSLETTER-->
+    <div id="newsletter-modal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="text-center">Subscribe</h1>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-form">
+                        <form action="https://formdump.codeinstitute.net/" method="post" taget="_blank">
+                            <div class="form-item">
+                                <label for="inputEmail">Email Address:<span>*</span></label>
+                                <input type="email" class="form-control" id="inputEmail" required>
                             </div>
+                            <br>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary uppercase"
                                     data-dismiss="modal">Close</button>
-                                <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Send
-                                    Message</button>
+                                <button type="submit" class="btn btn-primary membership-page-btn">Subscribe</button>
                             </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <!--MEMBERSHIP-->
-        <div id="membership-modal" class="modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="text-center">Membership Form</h1>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="modal-form">
-                            <form action="https://formdump.codeinstitute.net/" method="post" taget="_blank">
-                                <div class="form-item">
-                                    <label for="inputFirstName">Name:<span>*</span></label>
-                                    <input type="text" class="form-control" id="inputName" required>
-                                </div>
-                                <div class="form-item">
-                                    <label for="inputEmail">Email Address:<span>*</span></label>
-                                    <input type="email" class="form-control" id="inputEmail" required>
-                                </div>
-                                <div class="form-item">
-                                    <label class="select-label" for="membership-type">Membership
-                                        Type:<span>*</span></label><br>
-                                    <select class="custom-select">
-                                        <option selected>Choose Membership </option>
-                                        <option value="1">Basic</option>
-                                        <option value="2">Premium</option>
-                                        <option value="2">Ultimate</option>
-                                        <option value="2">30 Day Free Pass</option>
-                                    </select>
-                                </div>
-                                <br>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary uppercase"
-                                        data-dismiss="modal">Close</button>
-                                    <button type="submit" class="btn btn-primary membership-page-btn">Sign Up</button>
-                                </div>
-                            </form>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <!--MAP-->
+    <div id="map-modal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="text-center">Find Us</h1>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d519.488080749593!2d-74.01530542345874!3d40.700889061259126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a128d64db9b%3A0xacfba1747b40b4d4!2sStatue%20of%20Liberty%20View%20Point!5e0!3m2!1sen!2suk!4v1620386793689!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary uppercase"
+                            data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 

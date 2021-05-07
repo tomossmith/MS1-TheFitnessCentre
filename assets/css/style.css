@@ -309,6 +309,12 @@ footer .contact-icons {
     font-size: 1rem;
 }
 
+footer .opening-hours-icon {
+    color: #049DD9;
+    padding-right: 0.2rem;
+    font-size: 1rem;
+}
+
 footer .contact-text {
     font-size: 0.8rem;
     color: #777676;
