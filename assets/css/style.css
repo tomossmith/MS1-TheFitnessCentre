@@ -623,17 +623,17 @@ footer .social-icons {
     #reviews {
         margin-bottom: 70em;
     }
-}
 
     /* MOBILE - HERO SECTION*/
 
-    #hero-section .jumbotron {
-        background-image:
-            url('../images/hero-image-mobile.png');
+            #hero-section .jumbotron {
+        background-image: url('../images/hero-image-mobile.png');
         background-size: 110%;
         background-position: top;
         background-position-x: center;
     }
+
+
 
     .jumbotron .jumbo-block {
         position: relative;
@@ -699,6 +699,8 @@ footer .social-icons {
     .show-mob-only {
         display: none;
     }
+
+
 
     /* TABLET-HERO SECTION */
 
