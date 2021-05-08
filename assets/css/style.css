@@ -507,7 +507,7 @@ footer .social-icons {
 
 #reviews {
     margin-top: 5em;
-    margin-bottom: 30em;
+    margin-bottom: 34em;
 }
 
 #reviews h1 {
@@ -610,12 +610,20 @@ footer .social-icons {
     .h-20 {
         height: 20%;
     }
+
+    #reviews {
+        margin-bottom: 35em;
+    }
 }
 
 @media screen and (max-width:767px) {
     .show-pc-only {
         display: none;
     }
+    #reviews {
+        margin-bottom: 70em;
+    }
+}
 
     /* MOBILE - HERO SECTION*/
 
