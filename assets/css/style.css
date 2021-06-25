@@ -495,6 +495,10 @@ footer .social-icons {
     font-size: 3em;
 }
 
+#pricing-table ul {
+    list-style: none;
+}
+
 #pricing-table li p {
     font-weight: 400;
 }
