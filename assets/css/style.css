@@ -684,8 +684,9 @@ footer .social-icons {
         color: #fff;
     }
 
-    #testimonial-section h1 {
+    #testimonial-section h2 {
         font-size: 2em;
+        font-weight: 600;
     }
 
     #abs-mob {
