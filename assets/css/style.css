@@ -126,7 +126,7 @@ p {
     transform: translate(-50%, -50%);
 }
 
-.jumbotron h1 {
+#jumbotron-heading h2 {
     color: white;
     font-family: "roboto", sans-serif;
     font-weight: 600;
