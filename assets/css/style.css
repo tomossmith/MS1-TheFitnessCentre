@@ -422,13 +422,13 @@ footer #newsletter p {
     padding-bottom: 0.5em;
 }
 
-#class-cards button a {
+#class-cards .class-button a {
     color: #fff;
     border-bottom: none;
     text-decoration: none;
 }
 
-#class-cards .card-body button {
+#class-cards .card-body .class-button {
     margin: 1em 0em;
     position: relative;
     width: 15em;
