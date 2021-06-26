@@ -126,11 +126,11 @@ p {
     transform: translate(-50%, -50%);
 }
 
-#jumbotron-heading h2 {
+#jumbotron-heading {
     color: white;
     font-family: "roboto", sans-serif;
     font-weight: 600;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 #jumbotron-button {
@@ -623,7 +623,7 @@ footer #newsletter p {
 }
 
 /* UTILITY CLASSES */
-@media screen and (min-width:767px) {
+@media screen and (min-width:768px) {
     .h-20 {
         height: 20%;
     }
@@ -633,7 +633,7 @@ footer #newsletter p {
     }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
     .show-pc-only {
         display: none;
     }
@@ -643,24 +643,24 @@ footer #newsletter p {
 
     /* MOBILE - HERO SECTION*/
 
-            #hero-section .jumbotron {
+    #hero-section .jumbotron {
         background-image: url('../images/hero-image-mobile.png');
-        background-size: 110%;
+        width: 100%;
         background-position: top;
         background-position-x: center;
+        margin-left: 0;
+        
     }
-
-
 
     .jumbotron .jumbo-block {
         position: relative;
-        top: 80%;
+        top: 70%;
         left: 50%;
         width: auto;
-        background-color: rgba(0, 0, 255, 0);
+        text-shadow: 2px 2px 5px #000;
     }
 
-    .jumbotron h1 {
+    .jumbotron h2 {
         font-size: 6vw;
     }
 
@@ -724,8 +724,6 @@ footer #newsletter p {
 
     .jumbotron {
         background-image: url("../images/hero-image.png");
-        height: 80vh;
-        margin-top: 4em;
     }
 
     /* TABLET-FACILITIES SECTION */
