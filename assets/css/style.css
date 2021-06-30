@@ -166,7 +166,7 @@ p {
 #instructor-section .instructor-bg {
     /* ### CREDIT TO: W3 SCHOOLS ### */
     background: linear-gradient(to bottom, #00000060 10%, #430863d0 50%, #00000060 90%);
-    
+
 }
 
 #instructor-section .instructor-image {
@@ -633,10 +633,23 @@ footer #newsletter p {
     }
 }
 
+@media screen and (max-width: 425px) {
+    /* MOBILE - INSTRUCTORS SECTION */
+
+    #instructor-section .instructor-info h3 {
+        font-size: 1em;
+    }
+
+    #instructor-section .instructor-info p {
+        font-size: 0.7em;
+    }
+}
+
 @media screen and (max-width:768px) {
     .show-pc-only {
         display: none;
     }
+
     #reviews {
         margin-bottom: 70em;
     }
@@ -649,7 +662,7 @@ footer #newsletter p {
         background-position: top;
         background-position-x: center;
         margin-left: 0;
-        
+
     }
 
     .jumbotron .jumbo-block {
