@@ -492,6 +492,7 @@ footer #newsletter p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 #pricing-table .card-img-top {
     border-radius: 12em 5em;
     border: #6D980F solid 0.2em;
@@ -528,6 +529,13 @@ footer #newsletter p {
 #membership-button {
     width: 80%;
     padding: 2em 0em;
+    background-color: #049DD9;
+}
+
+#review-membership-button {
+    width: 80%;
+    padding: 2em 0em;
+    margin-bottom: 2em;
     background-color: #049DD9;
 }
 
@@ -635,10 +643,6 @@ footer #newsletter p {
     .h-20 {
         height: 20%;
     }
-
-    #reviews {
-        margin-bottom: 35em;
-    }
 }
 
 @media screen and (max-width: 425px) {
@@ -656,10 +660,6 @@ footer #newsletter p {
 @media screen and (max-width:768px) {
     .show-pc-only {
         display: none;
-    }
-
-    #reviews {
-        margin-bottom: 70em;
     }
 
     /* MOBILE - HERO SECTION*/
