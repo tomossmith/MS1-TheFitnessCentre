@@ -48,10 +48,6 @@ p {
     text-transform: uppercase;
 }
 
-.row {
-    --bs-gutter-x: 0;
-}
-
 .navbar {
     position: fixed;
     top: 0;
