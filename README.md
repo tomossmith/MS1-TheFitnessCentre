@@ -272,6 +272,8 @@ A responsive website designed to promote energy, fun and excellent facilities wi
     There were a number of errors in relation to typing errors and missing ';' however the checks found an error with some gradient colours I had set up to display in the background.
     The code for the gradient colour I used was formatted in rgba format and the validator marked this as an error. Once I changed the values to hex format, there were no further errors.
 
+    I have since run a second validation test on the CSS and although there are no errors with the style.css file for the site, the validator reports several errors within the external linked bootstrap and fontawesome css files.
+
 *   ###  Website compatibility
 
     As end users can view the site on many different platforms, devices and browsers of all screen width, I felt it was important to test my site's performance on as many devices as I could.
@@ -287,6 +289,12 @@ A responsive website designed to promote energy, fun and excellent facilities wi
     *   Microsoft Edge
 
     The site performed well on all of the above platforms. I noticed there were slight variations in some of the elements, but did not find any problems that would effect the end user experience.
+
+    
+    <b>Horizontal Movement On Index page when using mobiles</b>
+    When viewing the homepage on a mobile device, the user would be able to scroll horizontally as well as vertically. As there was no additional content for the user to see by scrolling horizontally, this shouldn't have been an option.
+
+    After inspecting the page I found that the backroung image was not decreasing in size correctly when following a media query command. I entered the correct width setting for the background and  this fixed the issue.
 
 *   ###  Link Testing
 
