@@ -25,12 +25,10 @@ A responsive website designed to promote energy, fun and excellent facilities wi
 
 * ### Returning Visitor Goals
 
-     * Returning Visitors, should be able to see what membership packages are available and also find any answers to frequently asked questions.
+     * Returning Visitors, should be able to see what membership packages are available.
      * Returning Visitors, should be able to sign up to a membership package.
      * Returning Visitors, should have an easy way to contact a member of staff to discuss any membership queries.
-     * Returning Visitors, should be able to register for a newsletter.
      * Returning Visitors, should be able to find the opening hours and contact information.
-     * Returning Visitors, should be able to find and enter upcoming events are happening at the gym.
      * Returning Visitors, should be able to find social links to be able to engage within the online community.
      * Returning Visitors, should be able to find more information about the trainers.
      * Returning Visitors, should be able to find what classes are available, when they are available and also book one.
@@ -88,6 +86,21 @@ A responsive website designed to promote energy, fun and excellent facilities wi
     The main font is Lato [Link](https://fonts.google.com/specimen/Raleway?query=Lato)
     
     The secondary font is Roboto [Link](https://fonts.google.com/specimen/Lato?query=Roboto)
+
+* ### What I changed from my mockup designs
+
+    Although I was quite happy with my mockup design and felt happy with the color scheme and choice of images, there were sections of the page that didn't flow as well as I had hoped once I had designed them.
+
+    Once designed, I ran through the site with my mentor and some of the changes we decided to make were;
+
+    - Instead of having a large selection of pages, we thought it would work well to have the majority of the gym's facilities and information on the homepage. I thought this because its the first page that the user sees, and its important to grab their attention as much as possible and minimise any waiting/loading times. Therefore by having all the information on one page, it meant that all the key information that the user needs was instantaneously available to them.
+
+    Once I have the user's attention, it meant that any further information that I felt the user would want to know could be branched out onto other pages.
+
+    - I liked the idea of having a simple table/diagram to show the user what memberships were available, however when trying to keep the design responsive and compatible on mobile devices, it felt difficult to try to fit all the detail into a small screen. I therefore chose to re-design the layout into a design that could be stacked vertically on smaller screens. This worked well I feel and was much easier to keep the design responsive for smaller devices.
+
+    - Although I had reduced the number of pages by including more information on the homepage, I felt that having a full page for a contact form was poor use of space and an un-necessary page movement for the user. I therefore chose to use a modal to display the form. By using a modal I think it feels a lot more professional and the website retains the user's attention by keeping the focus on the key pages without re-directing the user to different areas.
+    It also felt like the form could be presented to the user quickly, and also helps the user return to the original page quickly once completed as the original page is still loaded in the background.
 
 ----
 
@@ -300,6 +313,82 @@ A responsive website designed to promote energy, fun and excellent facilities wi
 
     I ran manual tests myself, running through all the pages and all the links on each page.
     This was to ensure that all the links and buttons work as they should and takes the end user to the correct place.
+
+*   ### Testing from User Stories and Experience
+
+*   ### First Time Visitor Goals
+    
+     * First Time Visitors, should be able to understand the purpose and reason for the site.
+
+        a. When the visitor lands on the page, they are presented with a large hero image of a man lifting weights, a large slogan and a call to action button for the visitor to 'find out more' about the gym.
+
+        b. The logo is placed at the top of the site and remains here throughout the visitor's time on the page. The website maintains the color scheme of the logo and gym branding.
+
+     * First Time Visitors, should be able to easily find the navigation links.
+
+        a. The navigation bar is located at the top of the page and remains here throughout the website. When scrolling down the page it remains at the top with a black background to make sure that the menu is clearly placed above all website objects.
+        
+        b. When the website is viewed on a mobile, a full menu is still displayed on the site by using a 'hamburger' menu.
+        The menu remains above all other objects on the site and is easily accessed at anytime.
+
+     * First Time Visitors, should be able to see key information such as how to join and what the gym offers.
+
+        a. As soon as the visitor lands on the page they have the option to find out more about the gym. This takes them to a section of the page to explain more about the gym. In this section, I thought it was important to have a selection of images and key bullet points and titles so that the visitor can read the key information and quickly.
+        As the visitor works their way down the information about the gym, they are shown a banner to sign up to the gym with the current special offer that the gym has of a 30 day free pass.
+
+     * First Time Visitors, should be able to see what other members say about their experience at the gym.
+
+        a. This section of the website is placed on the homepage after the key information about the gym. Visitors reading about the gym are naturally taken to this area where I made sure to have large images and a tagline of 'real people, real results' to catch the visitors attention.
+        I felt by adding quotation marks to the user stories, it helped make the stories more personal and made it clear to the visitor that these are what the gym members have said about the gym in their own words.
+
+        b.Although this could apply to the returning visitors, I thought that if a visitor were to look at the membership packages section but felt that they aren't sure if they should joing or not. I placed a second section of user stories underneath the membership packages to help gain the business of visitors that were not convinced.
+        
+
+* ### Returning Visitor Goals
+
+     * Returning Visitors, should be able to see what membership packages are available.
+
+        a. Returning visitors are able to easily access the membership page by using the navigation bar at the top of the site. The navigation link to the section is clearly labelled as 'Membership'.
+
+     * Returning Visitors, should be able to sign up to a membership package.
+
+        a. Visitors have several options to be directed to the membership sign up. Each page has a 'Sign Up' button located on it and the membership page also has large buttons after each notable area on the page.
+        When these buttons are clicked, the visitor is presented with a modal displaying a short form that they can fill in to join, followed by a button to 'sign up' or 'close' the modal.
+
+        b. As some buttons were located mid-page or near the bottom, I also placed a 'join' button on the navigation bar so that the visitor is never at any point of the website where a join or sign up button is not visible.
+
+     * Returning Visitors, should have an easy way to contact a member of staff to discuss any membership queries.
+
+        a. As this is a vital part of helping the gym to generate new members, I made sure that a contact button was placed on the navigation menu and each page has a footer containing all the information the visitor needs to contact the gym by several different methods.
+
+        Contacting the gym using the contact form is again a quick process for the visitor. Once the contact button is pressed on the navigation bar, a modal appears with a simple form for the visitor to fill with their contact information and any queries they have.
+
+     * Returning Visitors, should be able to find the opening hours and contact information.
+
+        a. This information is displayed on every page of the site. I placed the opening hours at the footer of the page next to all the key information about the gym.
+        The gym is open 24/7 and I made sure to display this in uppercase with an icon to display the information clearly, followed by a short reminder for current visitors/additional facility information for new members that they can access the gym using a keyfob at anytime.
+
+     * Returning Visitors, should be able to find social links to be able to engage within the online community.
+
+        a. Visitors are able to find all the gym's social links on all of the pages. Again, this was placed at the footer of each page with all other key information. At any point during their visit, they are able to scroll to the bottom of any page to find all the information to connect with the gym.
+
+     * Returning Visitors, should be able to find more information about the trainers.
+
+        a. I didn't think that this section should have a large amount of text as it wouldn't retain the visitors attention. I designed this section to have large images of the trainers and to display key information. Visitors can also see quickly the strengths and key areas that each trainer specialises in.
+
+        The trainer information is placed on the homepage as part of the initial information area's for the visitor. 
+        However, in order for the visitor to be able to access this information quickly, I also placed a tab on the navigation bar at the top that directs the visitor straight to the section.
+
+     * Returning Visitors, should be able to find what classes are available, when they are available and also book one.
+
+        a. Visitors are able to navigate to find out what classes are available by using the button in the navigation bar.
+        Once visitors land on the classes page, I thought it was important to have some text to outline key information about the gym's classes along with a promotional video to help engage the visitor into how the classes are run.
+
+        b. Classes are displayed in short blocks that fit responsively on all devices. These blocks have a short description of the classes and have a section with graphics to show key information to the visitor such as the capacity of the classes, intensity and duration.
+        I think that having the information presented this way helps the visitor to find out the information about the classes quickly.
+
+        c. Visitors are able to book classes by clicking on the 'book class' button located under each different class.
+        The book class button directs the visitor to a calendly integration where they can see when the chosen class is available and also which slot they wish to book.
 
 ----
 
