@@ -268,6 +268,11 @@ A responsive website designed to promote energy, fun and excellent facilities wi
     It turned out that the source addressing for the images and css were written in Absolute Paths.
     After changing all of the paths to Relative Paths, the site functioned correctly.
 
+    <b>Calendly Integration</b>
+    I have integrated Calendly into the website to manage the gym class bookings. Unfortunatley Calendly offer a 30 day free trial for full functionality, after this time only 1 of the classes will continue to demonstrate how the bookings system would work.
+
+    In order to see this, visitors need to choose the [Nutrition Class](https://calendly.com/thefitnesscentre/nutrition?month=2021-07) to experience the booking system. Links to all other classes open a new window directing to a Calendly 'URL not valid' page.
+
 ----
 
 * ## Testing
