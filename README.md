@@ -4,7 +4,7 @@
 
 This is the README file for my Code Institute MS1 project site, The Fitness Centre.
 
-[View the live site here](https://tomossmith.github.io/TheFitnessCentre/)
+[View the live site here](https://tomossmith.github.io/MS1-TheFitnessCentre/)
 
 ----
 
